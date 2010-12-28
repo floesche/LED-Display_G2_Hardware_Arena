@@ -1,219 +1,219 @@
-# EESchema Netlist Version 1.1 created  Mon 27 Dec 2010 09:28:12 PM PST
+# EESchema Netlist Version 1.1 created  Tue 28 Dec 2010 02:00:58 PM PST
 (
- ( /4D19112A $noname  P29 CONN_1 {Lib=CONN_1}
-  (    1 GND )
+ ( /4D129B16 JFRC_Capacitor_Polarized C1 CAPAPOL
+  ( 1 VCC )
+  ( 2 GND )
  )
- ( /4D191129 $noname  P28 CONN_1 {Lib=CONN_1}
-  (    1 GND )
+ ( /4D129B77 JFRC_Capacitor_Polarized C2 CAPAPOL
+  ( 1 VCC )
+  ( 2 GND )
  )
- ( /4D191126 $noname  P27 CONN_1 {Lib=CONN_1}
-  (    1 GND )
+ ( /4D1299C1 CON-SUBD_M09HP J1 DB9
+  ( 1 /SCL_1 )
+  ( 2 /SDA_1 )
+  ( 3 /SCL_2 )
+  ( 4 /SDA_2 )
+  ( 5 GND )
+  ( 6 /SCL_0 )
+  ( 7 /SCL_3 )
+  ( 8 /SDA_0 )
+  ( 9 /SDA_3 )
  )
- ( /4D191125 $noname  P26 CONN_1 {Lib=CONN_1}
-  (    1 GND )
+ ( /4D12997C JFRC_1X08 P1 COLUMN_0
+  ( 1 /SCL_0 )
+  ( 2 /SDA_0 )
+  ( 3 VCC )
+  ( 4 ? )
+  ( 5 ? )
+  ( 6 ? )
+  ( 7 VCC )
+  ( 8 GND )
  )
- ( /4D19111C $noname  P24 CONN_1 {Lib=CONN_1}
-  (    1 GND )
+ ( /4D129994 JFRC_1X08 P2 COLUMN_1
+  ( 1 /SCL_0 )
+  ( 2 /SDA_0 )
+  ( 3 VCC )
+  ( 4 ? )
+  ( 5 ? )
+  ( 6 ? )
+  ( 7 VCC )
+  ( 8 GND )
  )
- ( /4D1905C4 $noname  P23 CONN_1 {Lib=CONN_1}
-  (    1 GND )
+ ( /4D1299A0 JFRC_1X08 P3 COLUMN_2
+  ( 1 /SCL_0 )
+  ( 2 /SDA_0 )
+  ( 3 VCC )
+  ( 4 ? )
+  ( 5 ? )
+  ( 6 ? )
+  ( 7 VCC )
+  ( 8 GND )
  )
- ( /4D1905C2 $noname  P20 CONN_1 {Lib=CONN_1}
-  (    1 GND )
+ ( /4D12997B JFRC_1X08 P4 COLUMN_3
+  ( 1 /SCL_1 )
+  ( 2 /SDA_1 )
+  ( 3 VCC )
+  ( 4 ? )
+  ( 5 ? )
+  ( 6 ? )
+  ( 7 VCC )
+  ( 8 GND )
  )
- ( /4D1905C0 $noname  P19 CONN_1 {Lib=CONN_1}
-  (    1 GND )
+ ( /4D129995 JFRC_1X08 P5 COLUMN_4
+  ( 1 /SCL_1 )
+  ( 2 /SDA_1 )
+  ( 3 VCC )
+  ( 4 ? )
+  ( 5 ? )
+  ( 6 ? )
+  ( 7 VCC )
+  ( 8 GND )
  )
- ( /4D1905BE $noname  P18 CONN_1 {Lib=CONN_1}
-  (    1 GND )
+ ( /4D12999F JFRC_1X08 P6 COLUMN_5
+  ( 1 /SCL_1 )
+  ( 2 /SDA_1 )
+  ( 3 VCC )
+  ( 4 ? )
+  ( 5 ? )
+  ( 6 ? )
+  ( 7 VCC )
+  ( 8 GND )
  )
- ( /4D1905BC $noname  P22 CONN_1 {Lib=CONN_1}
-  (    1 GND )
+ ( /4D12995D JFRC_1X08 P7 COLUMN_6
+  ( 1 /SCL_2 )
+  ( 2 /SDA_2 )
+  ( 3 VCC )
+  ( 4 ? )
+  ( 5 ? )
+  ( 6 ? )
+  ( 7 VCC )
+  ( 8 GND )
  )
- ( /4D1905B4 $noname  P21 CONN_1 {Lib=CONN_1}
-  (    1 GND )
+ ( /4D129997 JFRC_1X08 P8 COLUMN_7
+  ( 1 /SCL_2 )
+  ( 2 /SDA_2 )
+  ( 3 VCC )
+  ( 4 ? )
+  ( 5 ? )
+  ( 6 ? )
+  ( 7 VCC )
+  ( 8 GND )
  )
- ( /4D13B1B5 $noname  SW1 SWITCH_INV {Lib=SWITCH_INV}
-  (    1 N-000001 )
-  (    2 VCC )
-  (    3 ? )
+ ( /4D12999D JFRC_1X08 P9 COLUMN_8
+  ( 1 /SCL_2 )
+  ( 2 /SDA_2 )
+  ( 3 VCC )
+  ( 4 ? )
+  ( 5 ? )
+  ( 6 ? )
+  ( 7 VCC )
+  ( 8 GND )
  )
- ( /4D13AE2D $noname  P17 CONN_1 {Lib=CONN_1}
-  (    1 GND )
+ ( /4D12996A JFRC_1X08 P10 COLUMN_9
+  ( 1 /SCL_3 )
+  ( 2 /SDA_3 )
+  ( 3 VCC )
+  ( 4 ? )
+  ( 5 ? )
+  ( 6 ? )
+  ( 7 VCC )
+  ( 8 GND )
  )
- ( /4D13AE27 $noname  P16 CONN_1 {Lib=CONN_1}
-  (    1 GND )
+ ( /4D129996 JFRC_1X08 P11 COLUMN_10
+  ( 1 /SCL_3 )
+  ( 2 /SDA_3 )
+  ( 3 VCC )
+  ( 4 ? )
+  ( 5 ? )
+  ( 6 ? )
+  ( 7 VCC )
+  ( 8 GND )
  )
- ( /4D12B40B $noname  P15 CONN_2 {Lib=CONN_2}
-  (    1 GND )
-  (    2 VCC )
+ ( /4D12999E JFRC_1X08 P12 COLUMN_11
+  ( 1 /SCL_3 )
+  ( 2 /SDA_3 )
+  ( 3 VCC )
+  ( 4 ? )
+  ( 5 ? )
+  ( 6 ? )
+  ( 7 VCC )
+  ( 8 GND )
  )
- ( /4D12B1EB $noname  P14 CONN_5X2 {Lib=CONN_5X2}
-  (    1 /SCL_1 )
-  (    2 /SCL_0 )
-  (    3 /SDA_1 )
-  (    4 /SCL_3 )
-  (    5 /SCL_2 )
-  (    6 /SDA_0 )
-  (    7 /SDA_2 )
-  (    8 /SDA_3 )
-  (    9 GND )
-  (   10 GND )
+ ( /4D129A69 JFRC_DIN5-TH P13 DIN_5
+  ( 1 GND )
+  ( 2 GND )
+  ( 3 N-000001 )
+  ( 4 ? )
+  ( 5 ? )
  )
- ( /4D129B77 $noname  C2 CAPAPOL {Lib=CAPAPOL}
-  (    1 VCC )
-  (    2 GND )
+ ( /4D12B1EB HEADER_5x2_LARGE P14 CONN_5X2
+  ( 1 /SCL_1 )
+  ( 2 /SCL_0 )
+  ( 3 /SDA_1 )
+  ( 4 /SCL_3 )
+  ( 5 /SCL_2 )
+  ( 6 /SDA_0 )
+  ( 7 /SDA_2 )
+  ( 8 /SDA_3 )
+  ( 9 GND )
+  ( 10 GND )
  )
- ( /4D129B16 $noname  C1 CAPAPOL {Lib=CAPAPOL}
-  (    1 VCC )
-  (    2 GND )
+ ( /4D12B40B Header_Shrouded_2_Pin P15 CONN_2
+  ( 1 GND )
+  ( 2 VCC )
  )
- ( /4D129A69 $noname  P13 DIN_5 {Lib=DIN_5}
-  (    1 GND )
-  (    2 GND )
-  (    3 N-000001 )
-  (    4 ? )
-  (    5 ? )
+ ( /4D13AE27 GroundMount P16 CONN_1
+  ( 1 GND )
  )
- ( /4D1299C1 $noname  J1 DB9 {Lib=DB9}
-  (    1 /SCL_1 )
-  (    2 /SDA_1 )
-  (    3 /SCL_2 )
-  (    4 /SDA_2 )
-  (    5 GND )
-  (    6 /SCL_0 )
-  (    7 /SCL_3 )
-  (    8 /SDA_0 )
-  (    9 /SDA_3 )
+ ( /4D13AE2D GroundMount P17 CONN_1
+  ( 1 GND )
  )
- ( /4D1299A0 $noname  P3 COLUMN_2 {Lib=CONN_8}
-  (    1 /SCL_0 )
-  (    2 /SDA_0 )
-  (    3 VCC )
-  (    4 ? )
-  (    5 ? )
-  (    6 ? )
-  (    7 VCC )
-  (    8 GND )
+ ( /4D1905BE MountingHole P18 CONN_1
+  ( 1 GND )
  )
- ( /4D12999F $noname  P6 COLUMN_5 {Lib=CONN_8}
-  (    1 /SCL_1 )
-  (    2 /SDA_1 )
-  (    3 VCC )
-  (    4 ? )
-  (    5 ? )
-  (    6 ? )
-  (    7 VCC )
-  (    8 GND )
+ ( /4D1905C0 MountingHole P19 CONN_1
+  ( 1 GND )
  )
- ( /4D12999E $noname  P12 COLUMN_11 {Lib=CONN_8}
-  (    1 /SCL_3 )
-  (    2 /SDA_3 )
-  (    3 VCC )
-  (    4 ? )
-  (    5 ? )
-  (    6 ? )
-  (    7 VCC )
-  (    8 GND )
+ ( /4D1905C2 MountingHole P20 CONN_1
+  ( 1 GND )
  )
- ( /4D12999D $noname  P9 COLUMN_8 {Lib=CONN_8}
-  (    1 /SCL_2 )
-  (    2 /SDA_2 )
-  (    3 VCC )
-  (    4 ? )
-  (    5 ? )
-  (    6 ? )
-  (    7 VCC )
-  (    8 GND )
+ ( /4D1905B4 MountingHole P21 CONN_1
+  ( 1 GND )
  )
- ( /4D129997 $noname  P8 COLUMN_7 {Lib=CONN_8}
-  (    1 /SCL_2 )
-  (    2 /SDA_2 )
-  (    3 VCC )
-  (    4 ? )
-  (    5 ? )
-  (    6 ? )
-  (    7 VCC )
-  (    8 GND )
+ ( /4D1905BC MountingHole P22 CONN_1
+  ( 1 GND )
  )
- ( /4D129996 $noname  P11 COLUMN_10 {Lib=CONN_8}
-  (    1 /SCL_3 )
-  (    2 /SDA_3 )
-  (    3 VCC )
-  (    4 ? )
-  (    5 ? )
-  (    6 ? )
-  (    7 VCC )
-  (    8 GND )
+ ( /4D1905C4 MountingHole P23 CONN_1
+  ( 1 GND )
  )
- ( /4D129995 $noname  P5 COLUMN_4 {Lib=CONN_8}
-  (    1 /SCL_1 )
-  (    2 /SDA_1 )
-  (    3 VCC )
-  (    4 ? )
-  (    5 ? )
-  (    6 ? )
-  (    7 VCC )
-  (    8 GND )
+ ( /4D19111C MountingHole P24 CONN_1
+  ( 1 GND )
  )
- ( /4D129994 $noname  P2 COLUMN_1 {Lib=CONN_8}
-  (    1 /SCL_0 )
-  (    2 /SDA_0 )
-  (    3 VCC )
-  (    4 ? )
-  (    5 ? )
-  (    6 ? )
-  (    7 VCC )
-  (    8 GND )
+ ( /4D191125 MountingHole P25 CONN_1
+  ( 1 GND )
  )
- ( /4D12997C $noname  P1 COLUMN_0 {Lib=CONN_8}
-  (    1 /SCL_0 )
-  (    2 /SDA_0 )
-  (    3 VCC )
-  (    4 ? )
-  (    5 ? )
-  (    6 ? )
-  (    7 VCC )
-  (    8 GND )
+ ( /4D191126 MountingHole P26 CONN_1
+  ( 1 GND )
  )
- ( /4D12997B $noname  P4 COLUMN_3 {Lib=CONN_8}
-  (    1 /SCL_1 )
-  (    2 /SDA_1 )
-  (    3 VCC )
-  (    4 ? )
-  (    5 ? )
-  (    6 ? )
-  (    7 VCC )
-  (    8 GND )
+ ( /4D191129 MountingHole P27 CONN_1
+  ( 1 GND )
  )
- ( /4D12996A $noname  P10 COLUMN_9 {Lib=CONN_8}
-  (    1 /SCL_3 )
-  (    2 /SDA_3 )
-  (    3 VCC )
-  (    4 ? )
-  (    5 ? )
-  (    6 ? )
-  (    7 VCC )
-  (    8 GND )
+ ( /4D19112A MountingHole P28 CONN_1
+  ( 1 GND )
  )
- ( /4D12995D $noname  P7 COLUMN_6 {Lib=CONN_8}
-  (    1 /SCL_2 )
-  (    2 /SDA_2 )
-  (    3 VCC )
-  (    4 ? )
-  (    5 ? )
-  (    6 ? )
-  (    7 VCC )
-  (    8 GND )
+ ( /4D13B1B5 JFRC_LPV-1 SW1 SWITCH_INV
+  ( 1 N-000001 )
+  ( 2 VCC )
+  ( 3 ? )
  )
 )
 *
 { Allowed footprints by component:
-$component C2
+$component C1
  CP*
  SM*
 $endlist
-$component C1
+$component C2
  CP*
  SM*
 $endlist
@@ -222,120 +222,3 @@ $component J1
 $endlist
 $endfootprintlist
 }
-{ Pin List by Nets
-Net 1 "" ""
- SW1 1
- P13 3
-Net 2 "VCC" "VCC"
- SW1 2
- P15 2
- C2 1
- C1 1
- P3 7
- P3 3
- P6 7
- P6 3
- P12 7
- P12 3
- P9 7
- P9 3
- P8 7
- P8 3
- P11 7
- P11 3
- P5 7
- P5 3
- P2 7
- P2 3
- P1 7
- P1 3
- P4 7
- P4 3
- P10 7
- P10 3
- P7 7
- P7 3
-Net 3 "GND" "GND"
- P29 1
- P28 1
- P27 1
- P26 1
- P24 1
- P23 1
- P20 1
- P19 1
- P18 1
- P22 1
- P21 1
- P17 1
- P16 1
- P15 1
- P14 10
- P14 9
- C2 2
- C1 2
- P13 1
- P13 2
- J1 5
- P3 8
- P6 8
- P12 8
- P9 8
- P8 8
- P11 8
- P5 8
- P2 8
- P1 8
- P4 8
- P10 8
- P7 8
-Net 5 "/SDA_3" "SDA_3"
- P14 8
- J1 9
- P12 2
- P11 2
- P10 2
-Net 6 "/SDA_0" "SDA_0"
- P14 6
- J1 8
- P3 2
- P2 2
- P1 2
-Net 7 "/SCL_3" "SCL_3"
- P14 4
- J1 7
- P12 1
- P11 1
- P10 1
-Net 8 "/SCL_0" "SCL_0"
- P14 2
- J1 6
- P3 1
- P2 1
- P1 1
-Net 9 "/SDA_2" "SDA_2"
- P14 7
- J1 4
- P9 2
- P8 2
- P7 2
-Net 10 "/SCL_2" "SCL_2"
- P14 5
- J1 3
- P9 1
- P8 1
- P7 1
-Net 11 "/SDA_1" "SDA_1"
- P14 3
- J1 2
- P6 2
- P5 2
- P4 2
-Net 12 "/SCL_1" "SCL_1"
- P14 1
- J1 1
- P6 1
- P5 1
- P4 1
-}
-#End
