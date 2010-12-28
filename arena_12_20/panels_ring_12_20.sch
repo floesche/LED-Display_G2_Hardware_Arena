@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Mon 27 Dec 2010 05:13:49 PM PST
+EESchema Schematic File Version 2  date Mon 27 Dec 2010 09:34:26 PM PST
 LIBS:power,device,transistors,conn,linear,regul,74xx,cmos4000,adc-dac,memory,xilinx,special,microcontrollers,dsp,microchip,analog_switches,motorola,texas,intel,audio,interface,digital-audio,philips,display,cypress,siliconi,opto,atmel,contrib,valves,./panels_ring_12_20.cache
 EELAYER 24  0
 EELAYER END
@@ -21,9 +21,6 @@ Wire Wire Line
 Connection ~ 3700 3000
 Wire Wire Line
 	3900 3000 3700 3000
-Connection ~ 3700 2600
-Wire Wire Line
-	3900 2600 3700 2600
 Connection ~ 2850 3400
 Wire Wire Line
 	3050 3400 2850 3400
@@ -345,15 +342,6 @@ P 4050 2800
 F 0 "P26" H 4130 2800 40  0000 L CNN
 F 1 "CONN_1" H 4050 2855 30  0001 C CNN
 	1    4050 2800
-	1    0    0    -1  
-$EndComp
-$Comp
-L CONN_1 P25
-U 1 1 4D191121
-P 4050 2600
-F 0 "P25" H 4130 2600 40  0000 L CNN
-F 1 "CONN_1" H 4050 2655 30  0001 C CNN
-	1    4050 2600
 	1    0    0    -1  
 $EndComp
 $Comp
