@@ -1,0 +1,360 @@
+EESchema Schematic File Version 2  date Fri 04 Feb 2011 05:07:01 PM PST
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:special
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+EELAYER 24  0
+EELAYER END
+$Descr A4 11700 8267
+Sheet 1 1
+Title "Panels Arena Mini"
+Date "4 feb 2011"
+Rev "1.0"
+Comp "Janelia / IO Rodeo"
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Connection ~ 6250 6350
+Wire Wire Line
+	6250 6150 6250 6550
+Wire Wire Line
+	6250 6150 6550 6150
+Connection ~ 5500 6350
+Wire Wire Line
+	5700 6350 5500 6350
+Connection ~ 6050 5600
+Wire Wire Line
+	5900 5600 6250 5600
+Wire Wire Line
+	4050 4950 4000 4950
+Wire Wire Line
+	6300 3750 6700 3750
+Wire Wire Line
+	6300 3550 6700 3550
+Wire Wire Line
+	5500 3850 5100 3850
+Wire Wire Line
+	5500 3650 5100 3650
+Wire Wire Line
+	5500 3450 5100 3450
+Wire Wire Line
+	7650 3950 7150 3950
+Wire Wire Line
+	7150 3950 7150 3250
+Wire Wire Line
+	7650 3450 7250 3450
+Wire Wire Line
+	5500 4700 5500 4850
+Wire Wire Line
+	6750 5000 6750 5150
+Wire Wire Line
+	6750 4600 6750 4450
+Wire Wire Line
+	3950 4000 4400 4000
+Wire Wire Line
+	3950 3800 4400 3800
+Wire Wire Line
+	3950 3600 4400 3600
+Wire Wire Line
+	3950 3400 4400 3400
+Wire Wire Line
+	3950 3300 4400 3300
+Wire Wire Line
+	3950 3500 4400 3500
+Wire Wire Line
+	3950 3700 4400 3700
+Wire Wire Line
+	3950 3900 4400 3900
+Wire Wire Line
+	3950 4100 4400 4100
+Wire Wire Line
+	7650 4050 7550 4050
+Wire Wire Line
+	7550 4050 7550 4150
+Wire Wire Line
+	7650 3350 7250 3350
+Wire Wire Line
+	7650 3550 7150 3550
+Connection ~ 7150 3550
+Wire Wire Line
+	5500 3550 5100 3550
+Wire Wire Line
+	5500 3750 5100 3750
+Wire Wire Line
+	6300 3450 6700 3450
+Wire Wire Line
+	6300 3650 6700 3650
+Wire Wire Line
+	6300 3850 6700 3850
+Wire Wire Line
+	6050 5700 6050 5600
+Wire Wire Line
+	5300 4600 5300 4850
+Wire Wire Line
+	5500 4850 5050 4850
+Connection ~ 5300 4850
+Wire Wire Line
+	5900 5400 6050 5400
+Wire Wire Line
+	6050 5400 6050 5100
+Wire Wire Line
+	6050 5100 4000 5100
+Wire Wire Line
+	4000 5100 4000 4950
+Wire Wire Line
+	5700 6150 5500 6150
+Wire Wire Line
+	5500 6150 5500 6650
+Wire Wire Line
+	6250 6350 6550 6350
+Wire Wire Line
+	6250 6550 5500 6550
+Connection ~ 5500 6550
+$Comp
+L CONN_1 P7
+U 1 1 4D19112A
+P 6700 6350
+F 0 "P7" H 6780 6350 40  0000 L CNN
+F 1 "CONN_1" H 6700 6405 30  0001 C CNN
+	1    6700 6350
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_1 P5
+U 1 1 4D191129
+P 6700 6150
+F 0 "P5" H 6780 6150 40  0000 L CNN
+F 1 "CONN_1" H 6700 6205 30  0001 C CNN
+	1    6700 6150
+	1    0    0    -1  
+$EndComp
+Text Notes 5600 5950 0    60   ~ 0
+8-32 mounting holes
+$Comp
+L GND #PWR01
+U 1 1 4D19062B
+P 5500 6650
+F 0 "#PWR01" H 5500 6650 30  0001 C CNN
+F 1 "GND" H 5500 6580 30  0001 C CNN
+	1    5500 6650
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_1 P6
+U 1 1 4D1905C4
+P 5850 6350
+F 0 "P6" H 5930 6350 40  0000 L CNN
+F 1 "CONN_1" H 5850 6405 30  0001 C CNN
+	1    5850 6350
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_1 P4
+U 1 1 4D1905BC
+P 5850 6150
+F 0 "P4" H 5930 6150 40  0000 L CNN
+F 1 "CONN_1" H 5850 6205 30  0001 C CNN
+	1    5850 6150
+	1    0    0    -1  
+$EndComp
+NoConn ~ 4050 4750
+$Comp
+L SWITCH_INV SW1
+U 1 1 4D13B1B5
+P 4550 4850
+F 0 "SW1" H 4350 5000 50  0000 C CNN
+F 1 "SWITCH_INV" H 4400 4700 50  0000 C CNN
+	1    4550 4850
+	-1   0    0    1   
+$EndComp
+$Comp
+L PWR_FLAG #FLG02
+U 1 1 4D12B7AD
+P 5300 4600
+F 0 "#FLG02" H 5300 4870 30  0001 C CNN
+F 1 "PWR_FLAG" H 5300 4830 30  0000 C CNN
+	1    5300 4600
+	1    0    0    -1  
+$EndComp
+$Comp
+L PWR_FLAG #FLG03
+U 1 1 4D12B7A8
+P 6250 5600
+F 0 "#FLG03" H 6250 5870 30  0001 C CNN
+F 1 "PWR_FLAG" H 6250 5830 30  0000 C CNN
+	1    6250 5600
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR04
+U 1 1 4D12B446
+P 6050 5700
+F 0 "#PWR04" H 6050 5700 30  0001 C CNN
+F 1 "GND" H 6050 5630 30  0001 C CNN
+	1    6050 5700
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_2 P3
+U 1 1 4D12B40B
+P 5550 5500
+F 0 "P3" V 5500 5500 40  0000 C CNN
+F 1 "CONN_2" V 5600 5500 40  0000 C CNN
+	1    5550 5500
+	-1   0    0    1   
+$EndComp
+Text Label 6350 3850 0    60   ~ 0
+GND
+Text Label 6350 3750 0    60   ~ 0
+SDA_3
+Text Label 6350 3650 0    60   ~ 0
+SDA_0
+Text Label 6350 3550 0    60   ~ 0
+SCL_3
+Text Label 6350 3450 0    60   ~ 0
+SCL_0
+Text Label 5150 3850 0    60   ~ 0
+GND
+Text Label 5150 3750 0    60   ~ 0
+SDA_2
+Text Label 5150 3650 0    60   ~ 0
+SCL_2
+Text Label 5150 3550 0    60   ~ 0
+SDA_1
+Text Label 5150 3450 0    60   ~ 0
+SCL_1
+$Comp
+L CONN_5X2 P1
+U 1 1 4D12B1EB
+P 5900 3650
+F 0 "P1" H 5900 3950 60  0000 C CNN
+F 1 "CONN_5X2" V 5900 3650 50  0000 C CNN
+	1    5900 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L VCC #PWR05
+U 1 1 4D12AC18
+P 7150 3250
+F 0 "#PWR05" H 7150 3350 30  0001 C CNN
+F 1 "VCC" H 7150 3350 30  0000 C CNN
+	1    7150 3250
+	1    0    0    -1  
+$EndComp
+Text Label 7300 3450 0    60   ~ 0
+SDA_0
+Text Label 7300 3350 0    60   ~ 0
+SCL_0
+$Comp
+L GND #PWR06
+U 1 1 4D12A94E
+P 7550 4150
+F 0 "#PWR06" H 7550 4150 30  0001 C CNN
+F 1 "GND" H 7550 4080 30  0001 C CNN
+	1    7550 4150
+	1    0    0    -1  
+$EndComp
+NoConn ~ 7650 3850
+NoConn ~ 7650 3750
+NoConn ~ 7650 3650
+$Comp
+L GND #PWR07
+U 1 1 4D12A6CB
+P 6750 5150
+F 0 "#PWR07" H 6750 5150 30  0001 C CNN
+F 1 "GND" H 6750 5080 30  0001 C CNN
+	1    6750 5150
+	1    0    0    -1  
+$EndComp
+$Comp
+L VCC #PWR08
+U 1 1 4D12A6C1
+P 6750 4450
+F 0 "#PWR08" H 6750 4550 30  0001 C CNN
+F 1 "VCC" H 6750 4550 30  0000 C CNN
+	1    6750 4450
+	1    0    0    -1  
+$EndComp
+$Comp
+L VCC #PWR09
+U 1 1 4D12A0AF
+P 5500 4700
+F 0 "#PWR09" H 5500 4800 30  0001 C CNN
+F 1 "VCC" H 5500 4800 30  0000 C CNN
+	1    5500 4700
+	1    0    0    -1  
+$EndComp
+Text Label 4050 4100 0    60   ~ 0
+GND
+Text Label 4050 4000 0    60   ~ 0
+SDA_3
+Text Label 4050 3900 0    60   ~ 0
+SDA_2
+Text Label 4050 3800 0    60   ~ 0
+SDA_0
+Text Label 4050 3700 0    60   ~ 0
+SCL_2
+Text Label 4050 3600 0    60   ~ 0
+SCL_3
+Text Label 4050 3500 0    60   ~ 0
+SDA_1
+Text Label 4050 3400 0    60   ~ 0
+SCL_0
+Text Label 4050 3300 0    60   ~ 0
+SCL_1
+$Comp
+L CAPAPOL C1
+U 1 1 4D129B77
+P 6750 4800
+F 0 "C1" H 6800 4900 50  0000 L CNN
+F 1 "CAPAPOL" H 6800 4700 50  0000 L CNN
+	1    6750 4800
+	1    0    0    -1  
+$EndComp
+$Comp
+L DB9 J1
+U 1 1 4D1299C1
+P 3500 3700
+F 0 "J1" H 3500 4250 70  0000 C CNN
+F 1 "DB9" H 3500 3150 70  0000 C CNN
+	1    3500 3700
+	-1   0    0    1   
+$EndComp
+$Comp
+L CONN_8 P2
+U 1 1 4D12997C
+P 8000 3700
+F 0 "P2" V 7950 3700 60  0000 C CNN
+F 1 "COLUMN_0" V 8050 3700 60  0000 C CNN
+	1    8000 3700
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC

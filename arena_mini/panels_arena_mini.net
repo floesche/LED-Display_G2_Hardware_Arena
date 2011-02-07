@@ -1,0 +1,72 @@
+# EESchema Netlist Version 1.1 created  Mon 07 Feb 2011 03:38:44 PM PST
+(
+ ( /4D129B77 JFRC_Capacitor_Polarized C1 CAPAPOL
+  ( 1 VCC )
+  ( 2 /GND )
+ )
+ ( /4D1299C1 CON-SUBD_M09HP J1 DB9
+  ( 1 /SCL_1 )
+  ( 2 /SDA_1 )
+  ( 3 /SCL_2 )
+  ( 4 /SDA_2 )
+  ( 5 /GND )
+  ( 6 /SCL_0 )
+  ( 7 /SCL_3 )
+  ( 8 /SDA_0 )
+  ( 9 /SDA_3 )
+ )
+ ( /4D12B1EB HEADER_5x2_LARGE P1 CONN_5X2
+  ( 1 /SCL_1 )
+  ( 2 /SCL_0 )
+  ( 3 /SDA_1 )
+  ( 4 /SCL_3 )
+  ( 5 /SCL_2 )
+  ( 6 /SDA_0 )
+  ( 7 /SDA_2 )
+  ( 8 /SDA_3 )
+  ( 9 /GND )
+  ( 10 /GND )
+ )
+ ( /4D12997C JFRC_1X08 P2 COLUMN_0
+  ( 1 /SCL_0 )
+  ( 2 /SDA_0 )
+  ( 3 VCC )
+  ( 4 ? )
+  ( 5 ? )
+  ( 6 ? )
+  ( 7 VCC )
+  ( 8 /GND )
+ )
+ ( /4D12B40B SCREW_TERMINAL_2 P3 CONN_2
+  ( 1 /GND )
+  ( 2 N-000011 )
+ )
+ ( /4D1905BC MountingHole P4 CONN_1
+  ( 1 /GND )
+ )
+ ( /4D191129 MountingHole P5 CONN_1
+  ( 1 /GND )
+ )
+ ( /4D1905C4 MountingHole P6 CONN_1
+  ( 1 /GND )
+ )
+ ( /4D19112A MountingHole P7 CONN_1
+  ( 1 /GND )
+ )
+ ( /4D13B1B5 JFRC_LPV-1 SW1 SWITCH_INV
+  ( 1 N-000011 )
+  ( 2 VCC )
+  ( 3 ? )
+ )
+)
+*
+{ Allowed footprints by component:
+$component C1
+ CP*
+ SM*
+$endlist
+$component J1
+ DB9*
+$endlist
+$endfootprintlist
+}

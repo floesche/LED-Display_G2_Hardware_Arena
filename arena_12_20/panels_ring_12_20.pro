@@ -1,5 +1,5 @@
-update=Mon 07 Feb 2011 12:14:36 PM PST
-last_client=cvpcb
+update=Mon 07 Feb 2011 03:37:02 PM PST
+last_client=pcbnew
 [general]
 version=1
 [eeschema]
@@ -70,6 +70,11 @@ LibName29=contrib
 LibName30=valves
 [common]
 NetDir=
+[cvpcb]
+version=1
+NetIExt=net
+[cvpcb/libraries]
+EquName1=devcms
 [pcbnew]
 version=1
 PadDrlX=2660
@@ -93,10 +98,5 @@ TxtLar=120
 MSegLar=150
 WpenSer=10
 [pcbnew/libraries]
-LibName1=mod/panels_ring
-LibDir=mod
-[cvpcb]
-version=1
-NetIExt=net
-[cvpcb/libraries]
-EquName1=devcms
+LibDir=../mod
+LibName1=/home/peter/mercurial/panels_arenas/mod/panels_arenas

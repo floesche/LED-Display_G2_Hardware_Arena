@@ -1,0 +1,73 @@
+Cmp-Mod V01 Created by CvPCB (2010-03-14)-final date = Mon 07 Feb 2011 03:38:44 PM PST
+
+BeginCmp
+TimeStamp = /4D129B77;
+Reference = C1;
+ValeurCmp = CAPAPOL;
+IdModule  = JFRC_Capacitor_Polarized;
+EndCmp
+
+BeginCmp
+TimeStamp = /4D1299C1;
+Reference = J1;
+ValeurCmp = DB9;
+IdModule  = CON-SUBD_M09HP;
+EndCmp
+
+BeginCmp
+TimeStamp = /4D12B1EB;
+Reference = P1;
+ValeurCmp = CONN_5X2;
+IdModule  = HEADER_5x2_LARGE;
+EndCmp
+
+BeginCmp
+TimeStamp = /4D12997C;
+Reference = P2;
+ValeurCmp = COLUMN_0;
+IdModule  = JFRC_1X08;
+EndCmp
+
+BeginCmp
+TimeStamp = /4D12B40B;
+Reference = P3;
+ValeurCmp = CONN_2;
+IdModule  = SCREW_TERMINAL_2;
+EndCmp
+
+BeginCmp
+TimeStamp = /4D1905BC;
+Reference = P4;
+ValeurCmp = CONN_1;
+IdModule  = MountingHole;
+EndCmp
+
+BeginCmp
+TimeStamp = /4D191129;
+Reference = P5;
+ValeurCmp = CONN_1;
+IdModule  = MountingHole;
+EndCmp
+
+BeginCmp
+TimeStamp = /4D1905C4;
+Reference = P6;
+ValeurCmp = CONN_1;
+IdModule  = MountingHole;
+EndCmp
+
+BeginCmp
+TimeStamp = /4D19112A;
+Reference = P7;
+ValeurCmp = CONN_1;
+IdModule  = MountingHole;
+EndCmp
+
+BeginCmp
+TimeStamp = /4D13B1B5;
+Reference = SW1;
+ValeurCmp = SWITCH_INV;
+IdModule  = JFRC_LPV-1;
+EndCmp
+
+EndListe
