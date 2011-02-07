@@ -1,4 +1,4 @@
-# EESchema Netlist Version 1.1 created  Tue 28 Dec 2010 02:00:58 PM PST
+# EESchema Netlist Version 1.1 created  Mon 07 Feb 2011 12:14:57 PM PST
 (
  ( /4D129B16 JFRC_Capacitor_Polarized C1 CAPAPOL
   ( 1 VCC )
@@ -142,7 +142,7 @@
  ( /4D129A69 JFRC_DIN5-TH P13 DIN_5
   ( 1 GND )
   ( 2 GND )
-  ( 3 N-000001 )
+  ( 3 N-000050 )
   ( 4 ? )
   ( 5 ? )
  )
@@ -160,7 +160,7 @@
  )
  ( /4D12B40B Header_Shrouded_2_Pin P15 CONN_2
   ( 1 GND )
-  ( 2 VCC )
+  ( 2 N-000050 )
  )
  ( /4D13AE27 GroundMount P16 CONN_1
   ( 1 GND )
@@ -202,7 +202,7 @@
   ( 1 GND )
  )
  ( /4D13B1B5 JFRC_LPV-1 SW1 SWITCH_INV
-  ( 1 N-000001 )
+  ( 1 N-000050 )
   ( 2 VCC )
   ( 3 ? )
  )

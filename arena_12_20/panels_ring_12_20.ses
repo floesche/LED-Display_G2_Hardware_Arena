@@ -1,0 +1,439 @@
+
+(session panels_ring_12_20.ses
+  (base_design panels_ring_12_20.dsn)
+  (placement
+    (resolution mil 10)
+    (component HEADER_5x2_LARGE
+      (place P14 95500 -21000 front 135)
+    )
+    (component "CON-SUBD_M09HP"
+      (place J1 98500 -13000 front 180)
+    )
+    (component "JFRC_DIN5-TH"
+      (place P13 105500 -20000 front 90)
+    )
+    (component Header_Shrouded_2_Pin
+      (place P15 108500 -29500 front 270)
+    )
+    (component "JFRC_LPV-1"
+      (place SW1 109500 -26000 front 90)
+    )
+    (component MountingHole
+      (place P24 108000 -14000 front 0)
+      (place P25 108000 -34000 front 0)
+      (place P26 108000 -44000 front 0)
+      (place P27 108000 -54000 front 0)
+      (place P28 108000 -64000 front 0)
+      (place P20 8000 -34000 front 0)
+      (place P18 8000 -14000 front 0)
+      (place P21 8000 -44000 front 0)
+      (place P19 8000 -24000 front 0)
+      (place P22 8000 -54000 front 0)
+      (place P23 8000 -64000 front 0)
+    )
+    (component GroundMount
+      (place P16 88000 -14000 front 0)
+      (place P17 28000 -14000 front 0)
+    )
+    (component JFRC_Capacitor_Polarized
+      (place C2 34000 -11000 front 0)
+      (place C1 82000 -11000 front 0)
+    )
+    (component JFRC_1X08
+      (place P1 100957 -60804 front 261)
+      (place P2 100957 -47196 front 279)
+      (place P3 96752 -34255 front 297)
+      (place P4 88754 -23246 front 315)
+      (place P5 77745 -15248 front 333)
+      (place P6 64804 -11043 front 351)
+      (place P7 51196 -11043 front 9)
+      (place P8 38255 -15248 front 27)
+      (place P9 27246 -23246 front 45)
+      (place P10 19248 -34255 front 63)
+      (place P11 15043 -47196 front 81)
+      (place P12 15043 -60804 front 99)
+    )
+  )
+  (was_is
+  )
+  (routes 
+    (resolution mil 10)
+    (parser
+      (host_cad "Kicad's PCBNEW")
+      (host_version "(2010-03-14)-final")
+    )
+    (library_out 
+      (padstack "Via[0-3]_35:25_mil"
+        (shape
+          (circle Front 350 0 0)
+        )
+        (shape
+          (circle Inner_L2 350 0 0)
+        )
+        (shape
+          (circle Inner_L1 350 0 0)
+        )
+        (shape
+          (circle Back 350 0 0)
+        )
+        (attach off)
+      )
+      (padstack "Via[0-3]_35:0_mil"
+        (shape
+          (circle Front 350 0 0)
+        )
+        (shape
+          (circle Inner_L2 350 0 0)
+        )
+        (shape
+          (circle Inner_L1 350 0 0)
+        )
+        (shape
+          (circle Back 350 0 0)
+        )
+        (attach off)
+      )
+    )
+    (network_out 
+      (net /SCL_0
+        (wire
+          (path Front 80
+            100120 -12500
+            100120 -18500
+            96561 -22059
+            96561 -22768
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 160
+            96561 -22768
+            96561 -29738
+            95163 -31136
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 160
+            95163 -31136
+            96746 -31136
+            100409 -34799
+            100409 -43739
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 160
+            100409 -43739
+            102069 -43739
+            103360 -45030
+            103360 -55492
+            101505 -57347
+          )
+          (type protect)
+        )
+      )
+      (net /SCL_1
+        (wire
+          (path Back 160
+            61347 -10495
+            61435 -9942
+          )
+        )
+        (wire
+          (path Back 160
+            61435 -9942
+            61747 -9942
+            61841 -10036
+            75544 -10036
+            86279 -20771
+          )
+        )
+        (wire
+          (path Back 160
+            97268 -22061
+            97268 -20577
+            94848 -18157
+            88893 -18157
+            86279 -20771
+          )
+        )
+        (wire
+          (path Front 80
+            100660 -13500
+            100660 -18669
+            97268 -22061
+          )
+          (type protect)
+        )
+      )
+      (net /SCL_2
+        (wire
+          (path Back 160
+            35136 -16837
+            34846 -16267
+          )
+        )
+        (wire
+          (path Back 160
+            47739 -11591
+            47186 -11679
+          )
+        )
+        (wire
+          (path Back 160
+            47186 -11679
+            47186 -11678
+            39600 -11678
+            35091 -16187
+            34926 -16187
+            34846 -16267
+          )
+        )
+        (wire
+          (path Back 160
+            35136 -16837
+            34566 -17127
+          )
+        )
+        (wire
+          (path Back 160
+            24771 -25721
+            25113 -25379
+          )
+        )
+        (wire
+          (path Back 160
+            25113 -25379
+            24803 -25070
+            24803 -25006
+            26871 -22938
+            26916 -22938
+            27534 -23556
+            28137 -23556
+            34566 -17127
+          )
+        )
+        (wire
+          (path Front 160
+            98500 -13500
+            98500 -12016
+            96426 -9942
+            49388 -9942
+            47739 -11591
+          )
+        )
+        (wire
+          (path Front 80
+            98500 -13500
+            98500 -18000
+            95854 -20646
+          )
+          (type protect)
+        )
+      )
+      (net /SCL_3
+        (wire
+          (path Front 80
+            99040 -12500
+            99040 -18170
+            95854 -21356
+            95854 -22061
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 160
+            15591 -64261
+            14821 -64261
+            13490 -62930
+            13490 -51658
+            14495 -50653
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 160
+            14495 -50653
+            13913 -50653
+            13380 -50120
+            13380 -41653
+            17659 -37374
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 160
+            99040 -12500
+            99040 -11460
+            96110 -8530
+            23840 -8530
+            15240 -17130
+            15240 -34955
+            17659 -37374
+          )
+          (type protect)
+        )
+      )
+      (net /SDA_0
+        (wire
+          (path Front 80
+            97960 -12500
+            97960 -17830
+            95146 -20644
+            95146 -21354
+          )
+          (type protect)
+        )
+        (wire
+          (path Back 160
+            95146 -21354
+            95146 -25646
+            97500 -28000
+            97500 -30144
+            95617 -32027
+          )
+          (type protect)
+        )
+        (wire
+          (path Back 160
+            95617 -32027
+            96507 -32027
+            101260 -36780
+            101260 -44033
+            100566 -44727
+          )
+          (type protect)
+        )
+        (wire
+          (path Back 160
+            100566 -44727
+            101227 -44727
+            102840 -46340
+            102840 -57480
+            101985 -58335
+            101348 -58335
+          )
+          (type protect)
+        )
+      )
+      (net /SDA_1
+        (wire
+          (path Back 160
+            62335 -10652
+            62687 -10300
+            75078 -10300
+            86256 -21478
+            86986 -21478
+          )
+        )
+        (wire
+          (path Back 160
+            86986 -21478
+            86986 -22161
+            87673 -22848
+            87737 -22848
+            91887 -18698
+            94773 -18698
+            96561 -20486
+            96561 -21354
+          )
+        )
+        (wire
+          (path Front 80
+            99580 -13500
+            99580 -18335
+            96561 -21354
+          )
+          (type protect)
+        )
+      )
+      (net /SDA_2
+        (wire
+          (path Front 160
+            48727 -12206
+            84347 -12206
+            85331 -11222
+            96781 -11222
+            97420 -11861
+            97420 -13500
+          )
+        )
+        (wire
+          (path Front 160
+            36027 -16383
+            36027 -15841
+            39662 -12206
+            48727 -12206
+          )
+        )
+        (wire
+          (path Front 160
+            48727 -11434
+            48727 -12206
+          )
+        )
+        (wire
+          (path Back 160
+            25478 -25014
+            28069 -25014
+            36027 -17056
+            36027 -16383
+          )
+        )
+        (wire
+          (path Front 80
+            97420 -13500
+            97420 -17665
+            95146 -19939
+          )
+          (type protect)
+        )
+      )
+      (net /SDA_3
+        (wire
+          (path Front 80
+            96880 -12500
+            96880 -17500
+            94439 -19941
+            94439 -20646
+          )
+          (type protect)
+        )
+        (wire
+          (path Back 160
+            96880 -12500
+            96880 -12040
+            93370 -8530
+            25060 -8530
+            16280 -17310
+            16280 -34650
+            18113 -36483
+          )
+          (type protect)
+        )
+        (wire
+          (path Back 160
+            18113 -36483
+            16717 -36483
+            12750 -40450
+            12750 -47763
+            14652 -49665
+          )
+          (type protect)
+        )
+        (wire
+          (path Back 160
+            14652 -49665
+            13825 -49665
+            12780 -50710
+            12780 -61910
+            14143 -63273
+            15434 -63273
+          )
+          (type protect)
+        )
+      )
+    )
+  )
+)
