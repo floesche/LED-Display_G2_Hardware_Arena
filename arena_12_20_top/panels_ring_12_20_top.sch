@@ -1,11 +1,40 @@
-EESchema Schematic File Version 2  date Tue 28 Dec 2010 06:39:21 PM PST
-LIBS:power,device,transistors,conn,linear,regul,74xx,cmos4000,adc-dac,memory,xilinx,special,microcontrollers,dsp,microchip,analog_switches,motorola,texas,intel,audio,interface,digital-audio,philips,display,cypress,siliconi,opto,atmel,contrib,valves
+EESchema Schematic File Version 2  date Tue 08 Feb 2011 05:23:41 PM PST
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:special
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
 EELAYER 24  0
 EELAYER END
 $Descr A4 11700 8267
 Sheet 1 1
-Title "Panels Ring 12 x 20"
-Date "27 dec 2010"
+Title "Panels Ring 12 x 20 Top"
+Date "9 feb 2011"
 Rev "1.0"
 Comp "Janelia / IO Rodeo"
 Comment1 ""
@@ -13,121 +42,186 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-NoConn ~ 10250 5150
+Connection ~ 2850 2400
+Wire Wire Line
+	3050 2400 2500 2400
+Wire Wire Line
+	2500 2400 2500 2300
+Connection ~ 3700 3350
+Wire Wire Line
+	3700 3350 3700 3400
+Wire Wire Line
+	3700 3400 3900 3400
+Connection ~ 3700 3000
+Wire Wire Line
+	3900 3000 3700 3000
+Connection ~ 2850 3400
+Wire Wire Line
+	3050 3400 2850 3400
+Connection ~ 2850 3000
+Wire Wire Line
+	3050 3000 2850 3000
+Connection ~ 2850 2600
+Wire Wire Line
+	3050 2600 2850 2600
+Wire Wire Line
+	2850 2400 2850 3700
+Wire Wire Line
+	10150 5250 10150 5150
+Wire Wire Line
+	10150 5150 10250 5150
+Wire Wire Line
+	7650 5250 7650 5150
+Wire Wire Line
+	7650 5150 7750 5150
+Wire Wire Line
+	8950 4250 8950 4150
+Wire Wire Line
+	8950 4150 9050 4150
+Wire Wire Line
+	10150 3300 10150 3200
+Wire Wire Line
+	10150 3200 10250 3200
+Wire Wire Line
+	7650 3300 7650 3200
+Wire Wire Line
+	7650 3200 7750 3200
+Wire Wire Line
+	8950 2300 8950 2200
+Wire Wire Line
+	8950 2200 9050 2200
+Wire Wire Line
+	7750 2200 7650 2200
+Wire Wire Line
+	7650 2200 7650 2300
+Wire Wire Line
+	10250 2200 10150 2200
+Wire Wire Line
+	10150 2200 10150 2300
+Wire Wire Line
+	9050 3200 8950 3200
+Wire Wire Line
+	8950 3200 8950 3300
+Wire Wire Line
+	7750 4150 7650 4150
+Wire Wire Line
+	7650 4150 7650 4250
+Wire Wire Line
+	10250 4150 10150 4150
+Wire Wire Line
+	10150 4150 10150 4250
+Wire Wire Line
+	9050 5150 8950 5150
+Wire Wire Line
+	8950 5150 8950 5250
+Wire Wire Line
+	2850 2800 3050 2800
+Connection ~ 2850 2800
+Wire Wire Line
+	2850 3200 3050 3200
+Connection ~ 2850 3200
+Wire Wire Line
+	3900 2400 3700 2400
+Wire Wire Line
+	3700 2400 3700 3550
+Wire Wire Line
+	3700 3550 2850 3550
+Connection ~ 2850 3550
+Wire Wire Line
+	3700 2800 3900 2800
+Connection ~ 3700 2800
+Wire Wire Line
+	3700 3200 3900 3200
+Connection ~ 3700 3200
+$Comp
+L PWR_FLAG #FLG01
+U 1 1 4D51EB93
+P 2500 2300
+F 0 "#FLG01" H 2500 2570 30  0001 C CNN
+F 1 "PWR_FLAG" H 2500 2530 30  0000 C CNN
+	1    2500 2300
+	1    0    0    -1  
+$EndComp
 NoConn ~ 10250 5050
 NoConn ~ 10250 4650
 NoConn ~ 10250 4550
 NoConn ~ 10250 4450
-NoConn ~ 10250 4150
 NoConn ~ 10250 4050
 NoConn ~ 10250 3650
 NoConn ~ 10250 3550
 NoConn ~ 10250 3450
-NoConn ~ 10250 3200
-NoConn ~ 10250 3100
-NoConn ~ 10250 2700
-NoConn ~ 10250 2600
-NoConn ~ 10250 2500
-NoConn ~ 10250 2200
-NoConn ~ 10250 2100
-NoConn ~ 10250 1700
-NoConn ~ 10250 1600
-NoConn ~ 10250 1500
-NoConn ~ 9050 2500
-NoConn ~ 9050 2600
-NoConn ~ 9050 2700
-NoConn ~ 9050 3100
-NoConn ~ 9050 3200
-NoConn ~ 9050 3450
-NoConn ~ 9050 3550
-NoConn ~ 9050 3650
 NoConn ~ 9050 4050
-NoConn ~ 9050 4150
-NoConn ~ 9050 4450
-NoConn ~ 9050 4550
-NoConn ~ 9050 4650
+NoConn ~ 9050 3650
+NoConn ~ 9050 3550
+NoConn ~ 9050 3450
 NoConn ~ 9050 5050
-NoConn ~ 9050 5150
-NoConn ~ 7750 5150
+NoConn ~ 9050 4650
+NoConn ~ 9050 4550
+NoConn ~ 9050 4450
 NoConn ~ 7750 5050
 NoConn ~ 7750 4650
 NoConn ~ 7750 4550
 NoConn ~ 7750 4450
-NoConn ~ 7750 4150
 NoConn ~ 7750 4050
 NoConn ~ 7750 3650
 NoConn ~ 7750 3550
 NoConn ~ 7750 3450
-NoConn ~ 7750 3200
+NoConn ~ 10250 3100
+NoConn ~ 10250 2700
+NoConn ~ 10250 2600
+NoConn ~ 10250 2500
+NoConn ~ 9050 3100
+NoConn ~ 9050 2700
+NoConn ~ 9050 2600
+NoConn ~ 9050 2500
 NoConn ~ 7750 3100
-NoConn ~ 9050 2200
+NoConn ~ 7750 2700
+NoConn ~ 7750 2600
+NoConn ~ 7750 2500
+NoConn ~ 10250 2100
+NoConn ~ 10250 1700
+NoConn ~ 10250 1600
+NoConn ~ 10250 1500
 NoConn ~ 9050 2100
 NoConn ~ 9050 1700
 NoConn ~ 9050 1600
 NoConn ~ 9050 1500
-NoConn ~ 7750 2500
-NoConn ~ 7750 2700
-NoConn ~ 7750 2600
-NoConn ~ 7750 2200
 NoConn ~ 7750 2100
 NoConn ~ 7750 1700
 NoConn ~ 7750 1600
 NoConn ~ 7750 1500
-NoConn ~ 3100 4000
-NoConn ~ 3800 4000
-NoConn ~ 3900 2400
-NoConn ~ 3900 2600
-NoConn ~ 3900 2800
-NoConn ~ 3900 3000
-NoConn ~ 3900 3200
-NoConn ~ 3900 3400
-NoConn ~ 3050 3400
-NoConn ~ 3050 3200
-NoConn ~ 3050 3000
-NoConn ~ 3050 2800
-NoConn ~ 3050 2600
-NoConn ~ 3050 2400
 $Comp
-L CONN_1 P25
-U 1 1 4D1A9B60
-P 4050 2600
-F 0 "P25" H 4130 2600 40  0000 L CNN
-F 1 "CONN_1" H 4050 2655 30  0001 C CNN
-	1    4050 2600
-	1    0    0    -1  
-$EndComp
-$Comp
-L CONN_1 P29
+L CONN_1 P28
 U 1 1 4D19112A
 P 4050 3400
-F 0 "P29" H 4130 3400 40  0000 L CNN
+F 0 "P28" H 4130 3400 40  0000 L CNN
 F 1 "CONN_1" H 4050 3455 30  0001 C CNN
 	1    4050 3400
 	1    0    0    -1  
 $EndComp
 $Comp
-L CONN_1 P28
+L CONN_1 P27
 U 1 1 4D191129
 P 4050 3200
-F 0 "P28" H 4130 3200 40  0000 L CNN
+F 0 "P27" H 4130 3200 40  0000 L CNN
 F 1 "CONN_1" H 4050 3255 30  0001 C CNN
 	1    4050 3200
 	1    0    0    -1  
 $EndComp
 $Comp
-L CONN_1 P27
+L CONN_1 P26
 U 1 1 4D191126
 P 4050 3000
-F 0 "P27" H 4130 3000 40  0000 L CNN
+F 0 "P26" H 4130 3000 40  0000 L CNN
 F 1 "CONN_1" H 4050 3055 30  0001 C CNN
 	1    4050 3000
 	1    0    0    -1  
 $EndComp
 $Comp
-L CONN_1 P26
+L CONN_1 P25
 U 1 1 4D191125
 P 4050 2800
-F 0 "P26" H 4130 2800 40  0000 L CNN
+F 0 "P25" H 4130 2800 40  0000 L CNN
 F 1 "CONN_1" H 4050 2855 30  0001 C CNN
 	1    4050 2800
 	1    0    0    -1  
@@ -141,10 +235,17 @@ F 1 "CONN_1" H 4050 2455 30  0001 C CNN
 	1    4050 2400
 	1    0    0    -1  
 $EndComp
-Text Notes 3000 3800 0    60   ~ 0
-1/4-20 mounting holes
 Text Notes 2900 2250 0    60   ~ 0
 8-32 mounting holes
+$Comp
+L GND #PWR02
+U 1 1 4D19062B
+P 2850 3700
+F 0 "#PWR02" H 2850 3700 30  0001 C CNN
+F 1 "GND" H 2850 3630 30  0001 C CNN
+	1    2850 3700
+	1    0    0    -1  
+$EndComp
 $Comp
 L CONN_1 P23
 U 1 1 4D1905C4
@@ -200,21 +301,111 @@ F 1 "CONN_1" H 3200 3055 30  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CONN_1 P17
-U 1 1 4D13AE2D
-P 3950 4000
-F 0 "P17" H 4030 4000 40  0000 L CNN
-F 1 "CONN_1" H 3950 4055 30  0001 C CNN
-	1    3950 4000
+L GND #PWR05
+U 1 1 4D12A99C
+P 10150 5250
+F 0 "#PWR05" H 10150 5250 30  0001 C CNN
+F 1 "GND" H 10150 5180 30  0001 C CNN
+	1    10150 5250
 	1    0    0    -1  
 $EndComp
 $Comp
-L CONN_1 P16
-U 1 1 4D13AE27
-P 3250 4000
-F 0 "P16" H 3330 4000 40  0000 L CNN
-F 1 "CONN_1" H 3250 4055 30  0001 C CNN
-	1    3250 4000
+L GND #PWR06
+U 1 1 4D12A997
+P 8950 5250
+F 0 "#PWR06" H 8950 5250 30  0001 C CNN
+F 1 "GND" H 8950 5180 30  0001 C CNN
+	1    8950 5250
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR07
+U 1 1 4D12A993
+P 7650 5250
+F 0 "#PWR07" H 7650 5250 30  0001 C CNN
+F 1 "GND" H 7650 5180 30  0001 C CNN
+	1    7650 5250
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR08
+U 1 1 4D12A98C
+P 10150 4250
+F 0 "#PWR08" H 10150 4250 30  0001 C CNN
+F 1 "GND" H 10150 4180 30  0001 C CNN
+	1    10150 4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR09
+U 1 1 4D12A989
+P 8950 4250
+F 0 "#PWR09" H 8950 4250 30  0001 C CNN
+F 1 "GND" H 8950 4180 30  0001 C CNN
+	1    8950 4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR010
+U 1 1 4D12A983
+P 7650 4250
+F 0 "#PWR010" H 7650 4250 30  0001 C CNN
+F 1 "GND" H 7650 4180 30  0001 C CNN
+	1    7650 4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR011
+U 1 1 4D12A97B
+P 10150 3300
+F 0 "#PWR011" H 10150 3300 30  0001 C CNN
+F 1 "GND" H 10150 3230 30  0001 C CNN
+	1    10150 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR012
+U 1 1 4D12A973
+P 8950 3300
+F 0 "#PWR012" H 8950 3300 30  0001 C CNN
+F 1 "GND" H 8950 3230 30  0001 C CNN
+	1    8950 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR013
+U 1 1 4D12A96D
+P 7650 3300
+F 0 "#PWR013" H 7650 3300 30  0001 C CNN
+F 1 "GND" H 7650 3230 30  0001 C CNN
+	1    7650 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR014
+U 1 1 4D12A95F
+P 10150 2300
+F 0 "#PWR014" H 10150 2300 30  0001 C CNN
+F 1 "GND" H 10150 2230 30  0001 C CNN
+	1    10150 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR015
+U 1 1 4D12A950
+P 8950 2300
+F 0 "#PWR015" H 8950 2300 30  0001 C CNN
+F 1 "GND" H 8950 2230 30  0001 C CNN
+	1    8950 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR016
+U 1 1 4D12A94E
+P 7650 2300
+F 0 "#PWR016" H 7650 2300 30  0001 C CNN
+F 1 "GND" H 7650 2230 30  0001 C CNN
+	1    7650 2300
 	1    0    0    -1  
 $EndComp
 NoConn ~ 10250 4950
