@@ -1,4 +1,4 @@
-update=Mon 07 Feb 2011 03:38:28 PM PST
+update=Tue 08 Feb 2011 03:53:26 PM PST
 last_client=pcbnew
 [general]
 version=1
@@ -31,4 +31,4 @@ MSegLar=150
 WpenSer=10
 [pcbnew/libraries]
 LibDir=../mod
-LibName1=/home/peter/mercurial/panels_arenas/mod/panels_arenas
+LibName1=panels_arenas

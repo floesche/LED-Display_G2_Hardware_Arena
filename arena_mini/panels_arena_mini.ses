@@ -1,0 +1,170 @@
+
+(session panels_arena_mini.ses
+  (base_design panels_arena_mini.dsn)
+  (placement
+    (resolution mil 10)
+    (component "CON-SUBD_M09HP"
+      (place J1 51000 -42000 front 180)
+    )
+    (component "JFRC_LPV-1"
+      (place SW1 62500 -49750 front 90)
+    )
+    (component JFRC_Capacitor_Polarized
+      (place C1 41000 -49000 front 270)
+    )
+    (component JFRC_1X08
+      (place P2 51000 -54000 front 0)
+    )
+    (component HEADER_5x2_LARGE
+      (place P1 51000 -46250 front 180)
+    )
+    (component MountingHole
+      (place P4 41000 -44000 front 0)
+      (place P5 61000 -44000 front 0)
+      (place P6 41000 -54000 front 0)
+      (place P7 61000 -54000 front 0)
+    )
+    (component SCREW_TERMINAL_2
+      (place P3 61000 -40750 front 180)
+    )
+  )
+  (was_is
+  )
+  (routes 
+    (resolution mil 10)
+    (parser
+      (host_cad "Kicad's PCBNEW")
+      (host_version "(2010-03-14)-final")
+    )
+    (library_out 
+      (padstack "Via[0-1]_35:25_mil"
+        (shape
+          (circle Front 350 0 0)
+        )
+        (shape
+          (circle Back 350 0 0)
+        )
+        (attach off)
+      )
+      (padstack "Via[0-1]_35:0_mil"
+        (shape
+          (circle Front 350 0 0)
+        )
+        (shape
+          (circle Back 350 0 0)
+        )
+        (attach off)
+      )
+    )
+    (network_out 
+      (net /SCL_0
+        (wire
+          (path Front 80
+            47500 -54000
+            47500 -53557
+          )
+        )
+        (wire
+          (path Front 80
+            52500 -46750
+            52500 -44043
+            52620 -43923
+            52620 -41500
+          )
+        )
+        (wire
+          (path Front 80
+            47500 -53557
+            52500 -48557
+            52500 -46750
+          )
+        )
+        (wire
+          (path Front 80
+            53000 -46750
+            52500 -46750
+          )
+        )
+      )
+      (net /SCL_1
+        (wire
+          (path Back 80
+            53000 -45750
+            53000 -45257
+          )
+        )
+        (wire
+          (path Back 80
+            53000 -45257
+            53160 -45097
+            53160 -42500
+          )
+        )
+      )
+      (net /SCL_2
+        (wire
+          (path Back 80
+            51000 -45750
+            51000 -42500
+          )
+        )
+      )
+      (net /SCL_3
+        (wire
+          (path Back 80
+            52000 -46750
+            51500 -46250
+            51500 -41540
+            51540 -41500
+          )
+        )
+      )
+      (net /SDA_0
+        (wire
+          (path Back 80
+            48500 -54000
+            48500 -49250
+            51000 -46750
+          )
+        )
+        (wire
+          (path Back 80
+            51000 -46750
+            50500 -46250
+            50500 -41540
+            50460 -41500
+          )
+        )
+      )
+      (net /SDA_1
+        (wire
+          (path Back 80
+            52000 -45750
+            52000 -42580
+            52080 -42500
+          )
+        )
+      )
+      (net /SDA_2
+        (wire
+          (path Back 80
+            50000 -45750
+            50000 -42580
+            49920 -42500
+          )
+        )
+      )
+      (net /SDA_3
+        (wire
+          (path Back 80
+            50000 -46750
+            49496 -46246
+            49496 -44219
+            49380 -44103
+            49380 -41500
+          )
+        )
+      )
+    )
+  )
+)

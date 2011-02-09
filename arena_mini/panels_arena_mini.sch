@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Fri 04 Feb 2011 05:07:01 PM PST
+EESchema Schematic File Version 2  date Tue 08 Feb 2011 04:10:39 PM PST
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -29,12 +29,13 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
+LIBS:panels_arena_mini-cache
 EELAYER 24  0
 EELAYER END
 $Descr A4 11700 8267
 Sheet 1 1
 Title "Panels Arena Mini"
-Date "4 feb 2011"
+Date "9 feb 2011"
 Rev "1.0"
 Comp "Janelia / IO Rodeo"
 Comment1 ""
