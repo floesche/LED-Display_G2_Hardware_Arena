@@ -1,0 +1,30 @@
+-*- mode:org -*-
+
+# panels_arena_mini.lst
+| ref | value      |
+|-----+------------|
+| C1  | CAPAPOL    |
+| J1  | DB9        |
+| P1  | CONN_5X2   |
+| P2  | COLUMN_0   |
+| P3  | CONN_2     |
+| P4  | CONN_1     |
+| P5  | CONN_1     |
+| P6  | CONN_1     |
+| P7  | CONN_1     |
+| SW1 | SWITCH_INV |
+
+# Bill of Materials
+| ! | part  | description           | vendor       | part number | quantity |  cost |
+|---+-------+-----------------------+--------------+-------------+----------+-------|
+|   | PCB   | panels_arena_mini 1.0 | protoexpress | 192719-INTJ |        1 | 21.56 |
+|   | C1    |                       |              |             |        1 |     1 |
+|   | J1    |                       |              |             |        1 |     1 |
+|   | P1    |                       |              |             |        1 |       |
+|   | P2    |                       |              |             |        1 |       |
+|   | P3    |                       |              |             |        1 |       |
+|   | P4-7  |                       |              |             |        4 |       |
+|   | SW1   |                       |              |             |        1 |       |
+|---+-------+-----------------------+--------------+-------------+----------+-------|
+| # | total |                       |              |             |          |  0.00 |
+#+TBLFM: @10$7=(@I$quantity..@II$quantity)*(@I$cost..@II$cost);%.2f;N

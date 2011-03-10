@@ -1,0 +1,38 @@
+-*- mode:org -*-
+
+# panels_ring_12_20_top.lst
+| ref | value     |
+|-----+-----------|
+| P1  | COLUMN_0  |
+| P2  | COLUMN_1  |
+| P3  | COLUMN_2  |
+| P4  | COLUMN_3  |
+| P5  | COLUMN_4  |
+| P6  | COLUMN_5  |
+| P7  | COLUMN_6  |
+| P8  | COLUMN_7  |
+| P9  | COLUMN_8  |
+| P10 | COLUMN_9  |
+| P11 | COLUMN_10 |
+| P12 | COLUMN_11 |
+| P18 | CONN_1    |
+| P19 | CONN_1    |
+| P20 | CONN_1    |
+| P21 | CONN_1    |
+| P22 | CONN_1    |
+| P23 | CONN_1    |
+| P24 | CONN_1    |
+| P25 | CONN_1    |
+| P26 | CONN_1    |
+| P27 | CONN_1    |
+| P28 | CONN_1    |
+
+# Bill of Materials
+| ! | part   | description                | vendor       | part number | quantity |  cost |
+|---+--------+----------------------------+--------------+-------------+----------+-------|
+|   | PCB    | panels_arena_12-20_top 2.0 | protoexpress | 192373-IRW  |        1 | 74.13 |
+|   | P1-12  |                            |              |             |       12 |       |
+|   | P18-28 |                            |              |             |       11 |       |
+|---+--------+----------------------------+--------------+-------------+----------+-------|
+| # | total  |                            |              |             |          | 76.00 |
+#+TBLFM: @5$7=(@I$quantity..@II$quantity)*(@I$cost..@II$cost);%.2f;N
