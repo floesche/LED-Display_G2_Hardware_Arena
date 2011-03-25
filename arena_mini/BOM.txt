@@ -15,19 +15,19 @@
 | SW1 | SWITCH_INV |
 
 # Bill of Materials
-| ! | part  | description                                               | vendor       | part number   | quantity |  cost |
-|---+-------+-----------------------------------------------------------+--------------+---------------+----------+-------|
-|   | PCB   | panels_arena_mini 1.0                                     | protoexpress | 192719-INTJ   |        1 | 21.56 |
-|   | C1    | CAP TANTALUM 10UF 25V 10% RAD                             | digikey      | 478-4170-ND   |        1 |  0.81 |
-|   | J1    | CONN D-SUB PLUG R/A 9POS GOLD/FL                          | digikey      | A35113-ND     |        1 |  1.91 |
-|   | P1    | CONN HEADER 2.54MM 10POS GOLD                             | digikey      | S9169-ND      |        1 |  0.31 |
-|   | P2    | CONN RCPT .100" 8POS SNGL TIN                             | digikey      | SAM1222-08-ND |        1 |  1.67 |
-|   | P3    | CONN TERM BLOCK 2.54MM 2POS                               | digikey      | 277-1273-ND   |        1 |  1.10 |
-|   | P4-7  | SCREW MACHINE PHIL 8-32X3/8 SS                            | digikey      | H715-ND       |        4 |  0.12 |
-|   | P4-7  | STANDOFF HEX 8-32THR ALUM .500"L                          | digikey      | 2217K-ND      |        4 |  0.45 |
-|   | SW1   |                                                           |              |               |        1 |  4.00 |
-|   |       | IDC Female 10 Position 2.54mm IDT Right Angle Cable Mount | jameco       | 525309        |        2 |  1.19 |
-|   |       | CABLE 10 COND 5' GRAY RIBBON                              | digikey      | AE10G-5-ND    |        1 |  1.44 |
-|---+-------+-----------------------------------------------------------+--------------+---------------+----------+-------|
-| # | total |                                                           |              |               |          | 37.46 |
+| ! | part  | description                                                  | vendor       | part number   | quantity |  cost |
+|---+-------+--------------------------------------------------------------+--------------+---------------+----------+-------|
+|   | PCB   | panels_arena_mini 1.0                                        | protoexpress | 192719-INTJ   |        1 | 21.56 |
+|   | C1    | CAP TANTALUM 10UF 25V 10% RAD                                | digikey      | 478-4170-ND   |        1 |  0.81 |
+|   | J1    | CONN D-SUB PLUG R/A 9POS GOLD/FL                             | digikey      | A35113-ND     |        1 |  1.91 |
+|   | P1    | CONN HEADER 2.54MM 10POS GOLD                                | digikey      | S9169-ND      |        1 |  0.31 |
+|   | P2    | CONN RCPT .100" 8POS SNGL TIN                                | digikey      | SAM1222-08-ND |        1 |  1.67 |
+|   | P3    | CONN TERM BLOCK 2.54MM 2POS                                  | digikey      | 277-1273-ND   |        1 |  1.10 |
+|   | P4-7  | SCREW MACHINE PHIL 8-32X3/8 SS                               | digikey      | H715-ND       |        4 |  0.12 |
+|   | P4-7  | STANDOFF HEX 8-32THR ALUM .500"L                             | digikey      | 2217K-ND      |        4 |  0.45 |
+|   | SW1   | SWITCH,TOG,SPDT,ON-ON(M148PC),RA PCB,6A/125VAC,1/4 MTNG.HOLE | jameco       | 71597         |        1 |  0.99 |
+|   |       | IDC Female 10 Position 2.54mm IDT Right Angle Cable Mount    | jameco       | 525309        |        2 |  1.19 |
+|   |       | CABLE 10 COND 5' GRAY RIBBON                                 | digikey      | AE10G-5-ND    |        1 |  1.44 |
+|---+-------+--------------------------------------------------------------+--------------+---------------+----------+-------|
+| # | total |                                                              |              |               |          | 34.45 |
 #+TBLFM: @13$7=(@I$quantity..@II$quantity)*(@I$cost..@II$cost);%.2f;N
