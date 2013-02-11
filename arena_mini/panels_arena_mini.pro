@@ -4,7 +4,7 @@ last_client=pcbnew
 version=1
 [cvpcb]
 version=1
-NetIExt=net
+NetIExt=.net
 [cvpcb/libraries]
 EquName1=devcms
 [pcbnew]
