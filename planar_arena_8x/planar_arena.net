@@ -1,0 +1,214 @@
+# EESchema Netlist Version 1.1 created  Wed 06 Feb 2013 04:34:50 PM PST
+(
+ ( /4E2F5895 JFRC_Capacitor_Polarized C1 10uF
+  ( 1 /5V )
+  ( 2 GND )
+ )
+ ( /4E2F57E4 JFRC_Capacitor_Polarized C2 10uF
+  ( 1 /5V )
+  ( 2 GND )
+ )
+ ( /5111B43A JFRC_Capacitor_Polarized C3 10uF
+  ( 1 /5V )
+  ( 2 GND )
+ )
+ ( /4E2F5712 DB9_M09 J1 DB9
+  ( 1 /SCL1 )
+  ( 2 /SDA1 )
+  ( 3 /SCL2 )
+  ( 4 /SDA2 )
+  ( 5 GND )
+  ( 6 /SCL0 )
+  ( 7 /SCL3 )
+  ( 8 /SDA0 )
+  ( 9 /SDA3 )
+ )
+ ( /4E2F5896 DCJACK_2PIN_HIGHCURRENT P1 CONN_2
+  ( 1 N-000031 )
+  ( 2 GND )
+ )
+ ( /4E2F55C9 pin_array_4x2 P2 CONN_4X2
+  ( 1 /SCL0 )
+  ( 2 /SCL_A )
+  ( 3 /SCL1 )
+  ( 4 /SCL_A )
+  ( 5 /SCL2 )
+  ( 6 /SCL_A )
+  ( 7 /SCL3 )
+  ( 8 /SCL_A )
+ )
+ ( /4E2F563F pin_array_4x2 P3 CONN_4X2
+  ( 1 /SDA0 )
+  ( 2 /SDA_A )
+  ( 3 /SDA1 )
+  ( 4 /SDA_A )
+  ( 5 /SDA2 )
+  ( 6 /SDA_A )
+  ( 7 /SDA3 )
+  ( 8 /SDA_A )
+ )
+ ( /5111BE1D pin_array_4x2 P4 CONN_4X2
+  ( 1 /SCL0 )
+  ( 2 /SCL_B )
+  ( 3 /SCL1 )
+  ( 4 /SCL_B )
+  ( 5 /SCL2 )
+  ( 6 /SCL_B )
+  ( 7 /SCL3 )
+  ( 8 /SCL_B )
+ )
+ ( /5111BE1C pin_array_4x2 P5 CONN_4X2
+  ( 1 /SDA0 )
+  ( 2 /SDA_B )
+  ( 3 /SDA1 )
+  ( 4 /SDA_B )
+  ( 5 /SDA2 )
+  ( 6 /SDA_B )
+  ( 7 /SDA3 )
+  ( 8 /SDA_B )
+ )
+ ( /5111BE6C pin_array_4x2 P6 CONN_4X2
+  ( 1 /SCL0 )
+  ( 2 /SCL_C )
+  ( 3 /SCL1 )
+  ( 4 /SCL_C )
+  ( 5 /SCL2 )
+  ( 6 /SCL_C )
+  ( 7 /SCL3 )
+  ( 8 /SCL_C )
+ )
+ ( /5111BE6D pin_array_4x2 P7 CONN_4X2
+  ( 1 /SDA0 )
+  ( 2 /SDA_C )
+  ( 3 /SDA1 )
+  ( 4 /SDA_C )
+  ( 5 /SDA2 )
+  ( 6 /SDA_C )
+  ( 7 /SDA3 )
+  ( 8 /SDA_C )
+ )
+ ( /5111BE9B pin_array_4x2 P8 CONN_4X2
+  ( 1 /SCL0 )
+  ( 2 /SCL_D )
+  ( 3 /SCL1 )
+  ( 4 /SCL_D )
+  ( 5 /SCL2 )
+  ( 6 /SCL_D )
+  ( 7 /SCL3 )
+  ( 8 /SCL_D )
+ )
+ ( /5111BE9A pin_array_4x2 P9 CONN_4X2
+  ( 1 /SDA0 )
+  ( 2 /SDA_D )
+  ( 3 /SDA1 )
+  ( 4 /SDA_D )
+  ( 5 /SDA2 )
+  ( 6 /SDA_D )
+  ( 7 /SDA3 )
+  ( 8 /SDA_D )
+ )
+ ( /4E2F58D5 PANEL_RT_ANG_INV P10 CONN_8
+  ( 1 /SCL_A )
+  ( 2 /SDA_A )
+  ( 3 /5V )
+  ( 4 ? )
+  ( 5 ? )
+  ( 6 ? )
+  ( 7 /5V )
+  ( 8 GND )
+ )
+ ( /4E2F597F PANEL_RT_ANG_INV P11 CONN_8
+  ( 1 /SCL_A )
+  ( 2 /SDA_A )
+  ( 3 /5V )
+  ( 4 ? )
+  ( 5 ? )
+  ( 6 ? )
+  ( 7 /5V )
+  ( 8 GND )
+ )
+ ( /4E2F5990 PANEL_RT_ANG_INV P12 CONN_8
+  ( 1 /SCL_B )
+  ( 2 /SDA_B )
+  ( 3 /5V )
+  ( 4 ? )
+  ( 5 ? )
+  ( 6 ? )
+  ( 7 /5V )
+  ( 8 GND )
+ )
+ ( /4E2F5992 PANEL_RT_ANG_INV P13 CONN_8
+  ( 1 /SCL_B )
+  ( 2 /SDA_B )
+  ( 3 /5V )
+  ( 4 ? )
+  ( 5 ? )
+  ( 6 ? )
+  ( 7 /5V )
+  ( 8 GND )
+ )
+ ( /4E2F5996 PANEL_RT_ANG_INV P14 CONN_8
+  ( 1 /SCL_C )
+  ( 2 /SDA_C )
+  ( 3 /5V )
+  ( 4 ? )
+  ( 5 ? )
+  ( 6 ? )
+  ( 7 /5V )
+  ( 8 GND )
+ )
+ ( /4E2F5998 PANEL_RT_ANG_INV P15 CONN_8
+  ( 1 /SCL_C )
+  ( 2 /SDA_C )
+  ( 3 /5V )
+  ( 4 ? )
+  ( 5 ? )
+  ( 6 ? )
+  ( 7 /5V )
+  ( 8 GND )
+ )
+ ( /4E2F59A0 PANEL_RT_ANG_INV P16 CONN_8
+  ( 1 /SCL_D )
+  ( 2 /SDA_D )
+  ( 3 /5V )
+  ( 4 ? )
+  ( 5 ? )
+  ( 6 ? )
+  ( 7 /5V )
+  ( 8 GND )
+ )
+ ( /5111B633 PANEL_RT_ANG_INV P17 CONN_8
+  ( 1 /SCL_D )
+  ( 2 /SDA_D )
+  ( 3 /5V )
+  ( 4 ? )
+  ( 5 ? )
+  ( 6 ? )
+  ( 7 /5V )
+  ( 8 GND )
+ )
+ ( /4E2F5AAC JFRC_LPV-1 SW1 SWITCH_INV
+  ( 1 N-000031 )
+  ( 2 /5V )
+  ( 3 ? )
+ )
+)
+*
+{ Allowed footprints by component:
+$component C1
+ CP*
+ SM*
+$endlist
+$component C2
+ CP*
+ SM*
+$endlist
+$component C3
+ CP*
+ SM*
+$endlist
+$component J1
+ DB9*
+$endlist
+$endfootprintlist
+}
