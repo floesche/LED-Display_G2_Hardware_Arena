@@ -31,8 +31,8 @@
 | ! | part   | description                    | vendor       | part number   | quantity |   cost |
 |---+--------+--------------------------------+--------------+---------------+----------+--------|
 |   | PCB    | panels_arena_12-20_top 2.0     | protoexpress | 192373-IRW    |        1 |  74.13 |
-|   | P1-12  | CONN HEADER 8POS .100 PCB GOLD | digikey      | SAM1004-08-ND |       12 |   3.31 |
+|   | P1-12  | CONN HEADER 8POS .100 PCB GOLD | digikey      | SAM1043-50-ND |        2 |   3.76 |
 |   | P18-28 |                                |              |               |       11 |   0.00 |
 |---+--------+--------------------------------+--------------+---------------+----------+--------|
-| # | total  |                                |              |               |          | 113.85 |
+| # | total  |                                |              |               |          |  81.65 |
 #+TBLFM: @5$7=(@I$quantity..@II$quantity)*(@I$cost..@II$cost);%.2f;N
