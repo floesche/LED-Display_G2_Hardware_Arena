@@ -10,6 +10,7 @@ zPcb = 0.0625*INCH2MM
 xPanel = 32.0
 yPanel = 32.0
 zPanel = 10.0
+yBaseExtra = 1.5*INCH2MM
 
 xPanelDisplay = xPanel - 1.0
 yPanelDisplay = yPanel - 1.0
@@ -20,12 +21,13 @@ mountHoleInset = 0.5*INCH2MM
 
 pcbThruHoleDiam = 0.2570*INCH2MM
 pcbTapHoleDiam = 0.20*INCH2MM
-panel2PcbMountHoleGap = 0.65*INCH2MM
+panel2PcbMountHoleGap = 0.1130*INCH2MM 
 pcbHoleSpacing = 3.0*INCH2MM
 pcbHoleYPos = 0.75*INCH2MM
 
-xBase = xPcb
-yBase = 17.0*INCH2MM
+xBase = xPcb - 0.25*INCH2MM
+#yBase = 16.0*INCH2MM
+yBase = 2*yPcb + 8*yPanel + panel2PcbMountHoleGap  + 2*yBaseExtra
 zBase = 0.25*INCH2MM
 rBase = 0.25*INCH2MM
 
@@ -35,12 +37,12 @@ rBase = 0.25*INCH2MM
 baseHoleList = []
 
 # Create arena mount holes
-pcbMountHoleYPos = 0.5*(yPcb + 8*yPanel + 2*panel2PcbMountHoleGap)
+pcbMountHoleYPos = 0.5*(yPcb + 8*yPanel + panel2PcbMountHoleGap)
 for j in (-1,1):
     for i in (-1,0,1):
         xPos = i*pcbHoleSpacing
         yPos = j*pcbMountHoleYPos
-        baseHoleList.append((xPos, yPos, pcbTapHoleDiam))
+        baseHoleList.append((xPos, yPos, pcbThruHoleDiam))
 
 # Add outer mount holes
 for j in (-1,1):
@@ -79,13 +81,12 @@ panel = Translate(panel,v=(0,0,zShift))
 panel = Color(panel,rgba=(0.0,0.9,0,1.0))
 
 panelList = []
-for i in range(-4,5):
-    for j in range(-4,5):
-        xPos = xPanel*j
-        yPos = yPanel*i
+for i in range(0,8):
+    for j in range(0,8):
+        xPos = xPanel*j - 3.5*xPanel
+        yPos = yPanel*i - 3.5*yPanel
         panelTemp = Translate(panel,v=(xPos,yPos,0))
         panelList.append(panelTemp)
-
 
 
 # Write open scad programs
