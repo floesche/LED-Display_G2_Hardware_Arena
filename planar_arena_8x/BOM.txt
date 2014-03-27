@@ -5,5 +5,5 @@ CONN D-SUB PLUG R/A 9POS GOLD/FL               Digikey      A35113-ND        $2.
 CONN HEADER 2.54MM 10POS GOLD                  Digikey      S9169-ND         $0.31      2
 CONN HEADER 4POS .100 STR TIN                  Digikey      609-3242-ND      $0.32      2
 CONN PWR JACK DC 2.1X5.5 8A T/H                Digikey      CP-063AH-ND      $1.55      2
-CONN RCPT .100" 8POS SNGL TIN                  Digikey      SAM1222-08-ND    $1.26      7
+CONN RCPT .100" 8POS SNGL TIN                  Digikey      SAM1195-08-ND    $1.62      7
 SWITCH TOGGLE SPDT SEAL VERT R/A               Digikey      CKN1513-ND       $7.14      2
