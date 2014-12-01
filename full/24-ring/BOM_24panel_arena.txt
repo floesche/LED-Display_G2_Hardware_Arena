@@ -1,0 +1,21 @@
+===============
+Bottom Assembly 
+===============
+
+part      description                               vendor      part#         qty    price
+--------------------------------------------------------------------------------------------
+J1         CONN D-SUB PLUG R/A 9POS GOLD/FL         digikey     A35113-ND      1     1.91  
+J2,J3      CONN DIN 5 PIN FEMALE PCB                jameco      2077811        2     0.65 
+S1         Power switch ??      
+JP1-JP24   CONN RCPT .100" 8POS SNGL TIN            jameco      70755          24    0.45 
+C1-C8      CAP TANTALUM 10UF 25V 10% RAD            digikey     478-4170-ND    8     0.81
+JP25-JP30  CONN HEADER 3POS .100" STR TIN           digikey     WM8073-ND      6     0.31
+
+
+============
+Top Assembly
+============
+
+part      description                               vendor      part#         qty    price
+--------------------------------------------------------------------------------------------
+JP25-JP24  HEADER,.1 ST MALE,1RW,8PIN, .025 PST,.23  jameco      153702        24     0.29
