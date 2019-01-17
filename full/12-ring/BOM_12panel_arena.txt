@@ -2,22 +2,22 @@
 Bottom Assembly
 ===============
 
-part      description                               vendor      part#         qty    price
---------------------------------------------------------------------------------------------
-J1         CONN D-SUB PLUG R/A 9POS GOLD/FL         digikey     A35113-ND      1     1.91  
-J2         CONN DIN 5 PIN FEMALE PCB                jameco      2077811        1     0.65 
-S1         SWITCH,TOG,SPDT,ON-ON(M148PC)            jameco      71597          1     0.99
-JP1-JP12   CONN RCPT .100" 8POS SNGL TIN            jameco      70755          12    0.45 
-C1-C4      CAP TANTALUM 10UF 25V 10% RAD            digikey     478-4170-ND    4     0.81
-JP13-JP18  CONN HEADER 3POS .100" STR TIN           digikey     WM8073-ND      6     0.31
+part      description                               vendor      part#         qty    
+---------------------------------------------------------------------------------------
+J1         CONN D-SUB PLUG R/A 9POS GOLD/FL         digikey     609-1478-ND    1    
+J2         CONN DIN 5 PIN FEMALE PCB                digikey     CP-2350-ND     2    
+S1         SWITCH,TOG,SPDT,ON-ON(M148PC)            digikey     CKN-1513-ND    1     
+JP1-JP12   CONN RCPT .100" 8POS SNGL TIN            digikey     SAM122-08-ND   24   
+C1-C4      CAP TANTALUM 10UF 25V 10% RAD            digikey     478-4170-ND    4     
+JP13-JP18  CONN HEADER 3POS .100" STR TIN           digikey     WM8073-ND      6     
  
 ============
 Top Assembly
 ============
 
-part      description                               vendor      part#         qty    price
---------------------------------------------------------------------------------------------
-JP1-JP12  HEADER,.1 ST MALE,1RW,8PIN, .025 PST,.23  jameco      153702        12     0.29
+part      description                               vendor      part#         qty    
+---------------------------------------------------------------------------------------
+JP1-JP12  HEADER,.1 ST MALE,1RW,8PIN, .025 PST,.23  digikey    S1011EC-40-ND  24   
 
 
 
