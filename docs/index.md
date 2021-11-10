@@ -10,7 +10,16 @@ parent: Generation 2
 
 The Arena 12-12 is an arena board for the Generation 2 of the Modular LED Display system. The original project file was named __JF-MR-FA0001__, the production files represent the __RevB__.
 
-Find the EAGLE PCB for a 12-12 arena inside the `arena_12-12` project folder. Have a preview of the [schematic](assets/arena_12-12_schematic.pdf) or the [PCB layout](assets/arena_12-12_pcb.pdf).
+Find the EAGLE PCB for a 12-12 arena inside the `arena_12-12` project folder. Have a preview of the [schematic](assets/arena_12-12_schematic.pdf) or the [PCB layout](assets/arena_12-12_pcb.pdf). This arena was probably designed and produced around 2010.
+
+# Arena 24-24
+{:.clear}
+
+![Front side of the Arena 24-24](assets/arena_24-24_front.png){:.ifr .pop .clear}
+
+The Arena 24-24 is an arena board for the Generation 2 of the Modular LED Display system. The original project file was named __JF-MR-FA0002__, the production files represent the __RevA__.
+
+Find the EAGLE PCB for a 24-24 arena inside the `arena_24-24` project folder. Have a preview of the [schematic](assets/arena_24-24_schematic.pdf) or the [PCB layout](assets/arena_24-24_pcb.pdf). This arena was probably designed and produced around 2010.
 
 # Arena 12-20
 {:.clear}
@@ -58,30 +67,3 @@ The Arena 8-inf is a planar arena board with 8 panel connectors for the Generati
 
 Find the KiCad PCB for a 8-inf arena inside the `arena_8-inf` project folder. Have a preview of the [schematic](assets/arena_8-inf_schematic.pdf). In addition the project folder contains a folder named `enclosure`. These files were apparently used to produce some kind of mounting base or enclosure for the 8-inf arena. Based on the vector file format the parts were probably laser cut. There is also a python file to generate a OpenSCAD file utilizeing the
 
----
-{:.clear}
-
-## Project content
-
-```
-├── arena_12_20
-│   ├── gerber_v1
-│   ├── gerber_v2
-│   ├── pdf
-│   └── svg
-├── arena_12_20_top
-│   └── gerber_v1
-├── arena_mini
-│   ├── gerber_v1
-│   └── pdf
-├── full
-│   ├── 12-ring
-│   └── 24-ring
-├── mod
-├── pdfs
-├── planar_arena_8x
-│   └── gerber_v0p1
-└── planar_arena_8x_base
-    ├── v0p1
-    └── v0p2
-```
