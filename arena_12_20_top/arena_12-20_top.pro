@@ -1,5 +1,5 @@
-update=Tue 08 Feb 2011 05:21:09 PM PST
-last_client=cvpcb
+update=Wed 10 Nov 2021 12:43:43 PM EST
+last_client=kicad
 [general]
 version=1
 [pcbnew]
@@ -32,3 +32,16 @@ version=1
 NetIExt=net
 [cvpcb/libraries]
 EquName1=devcms
+[eeschema]
+version=1
+LibDir=
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceAjustPassiveValues=0
+LabSize=50
+ERC_TestSimilarLabels=1
