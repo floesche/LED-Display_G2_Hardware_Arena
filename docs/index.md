@@ -39,6 +39,16 @@ Find the KiCad PCB for a 1-1 arena inside the `arena_1-1` project folder. Have a
 
 This PCB was last ordered around 2011 from <https://protoexpress.com> under the name *panels_arena_mini 1.0 1.0* reference number *192719-INTJ* for about $2. Most likely, the content of `arena_1-1/production_v1/arena_1-1_v1p0.zip` was used for this order.
 
+# Arena 8-inf
+{:.clear}
+
+![Front side of the Arena 8-inf](assets/arena_8-inf_front.png){:.ifr .pop .clear}
+![Back side of the Arena 8-inf](assets/arena_8-inf_back.png){:.ifr .pop .clear}
+
+The Arena 8-inf is a planar arena board with 8 panel connectors for the Generation 2 of the Modular LED Display system. It is sometimes referred to as a hallway arena.
+
+Find the KiCad PCB for a 8-inf arena inside the `arena_8-inf` project folder. Have a preview of the [schematic](assets/arena_8-inf_schematic.pdf).
+
 ---
 {:.clear}
 
