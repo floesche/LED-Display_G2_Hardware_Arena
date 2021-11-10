@@ -1,0 +1,55 @@
+-*- mode:org -*-
+
+# arena_12-20.lst
+| ref | value      |
+|-----+------------|
+| C1  | CAPAPOL    |
+| C2  | CAPAPOL    |
+| J1  | DB9        |
+| P1  | COLUMN_0   |
+| P2  | COLUMN_1   |
+| P3  | COLUMN_2   |
+| P4  | COLUMN_3   |
+| P5  | COLUMN_4   |
+| P6  | COLUMN_5   |
+| P7  | COLUMN_6   |
+| P8  | COLUMN_7   |
+| P9  | COLUMN_8   |
+| P10 | COLUMN_9   |
+| P11 | COLUMN_10  |
+| P12 | COLUMN_11  |
+| P13 | DIN_5      |
+| P14 | CONN_5X2   |
+| P15 | CONN_2     |
+| P16 | CONN_1     |
+| P17 | CONN_1     |
+| P18 | CONN_1     |
+| P19 | CONN_1     |
+| P20 | CONN_1     |
+| P21 | CONN_1     |
+| P22 | CONN_1     |
+| P23 | CONN_1     |
+| P24 | CONN_1     |
+| P25 | CONN_1     |
+| P26 | CONN_1     |
+| P27 | CONN_1     |
+| P28 | CONN_1     |
+| SW1 | SWITCH_INV |
+
+# Bill of Materials
+| ! | part   | description                      | vendor       | part number   | quantity |   cost |
+|---+--------+----------------------------------+--------------+---------------+----------+--------|
+|   | PCB    | panels_arena_12-20 2.0           | protoexpress | 192373-IRW    |        1 |  74.13 |
+|   | C1-2   | CAP TANTALUM 10UF 25V 10% RAD    | digikey      | 478-4170-ND   |        2 |   0.81 |
+|   | J1     | CONN D-SUB PLUG R/A 9POS GOLD/FL | digikey      | A35113-ND     |        1 |   1.91 |
+|   | P1-12  | CONN RCPT .100" 8POS SNGL TIN    | digikey      | SAM1222-08-ND |       12 |   1.67 |
+|   | P13    | CONN DIN 5 PIN FEMALE PCB        | digikey      | CP-2350-ND    |        1 |   1.20 |
+|   | P14    | CONN HEADER 2.54MM 10POS GOLD    | digikey      | S9169-ND      |        1 |   0.31 |
+|   | P15    | CONN TERM BLOCK 2.54MM 2POS      | digikey      | 277-1273-ND   |        1 |   1.10 |
+|   | P16-28 | SCREW MACHINE PHIL 8-32X3/8 SS   | digikey      | H715-ND       |       13 |   0.12 |
+|   | P16-28 | STANDOFF HEX 8-32THR ALUM .500"L | digikey      | 2217K-ND      |       13 |   0.45 |
+|   | SW1    | SWITCH TOGGLE SPDT SEAL VERT R/A | digikey      | CKN1513-ND    |        1 |   6.93 |
+|---+--------+----------------------------------+--------------+---------------+----------+--------|
+| # | total  |                                  |              |               |          | 114.65 |
+
+#+TBLFM: @12$7=(@I$quantity..@II$quantity)*(@I$cost..@II$cost);%.2f;N

@@ -25,7 +25,7 @@ ERC_TestSimilarLabels=1
 [pcbnew]
 version=1
 PageLayoutDescrFile=
-LastNetListRead=panels_ring_12_20.net
+LastNetListRead=arena_12-20.net
 CopperLayerCount=4
 BoardThickness=1.6002
 AllowMicroVias=0

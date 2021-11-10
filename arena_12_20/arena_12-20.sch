@@ -309,7 +309,7 @@ Connection ~ 3700 3000
 Wire Wire Line
 	3900 3400 3700 3400
 $Comp
-L panels_ring_12_20:CONN_1 P28
+L arena_12-20:CONN_1 P28
 U 1 1 4D19112A
 P 4050 3400
 F 0 "P28" H 4130 3400 40  0000 L CNN
@@ -320,7 +320,7 @@ F 3 "" H 4050 3400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L panels_ring_12_20:CONN_1 P27
+L arena_12-20:CONN_1 P27
 U 1 1 4D191129
 P 4050 3200
 F 0 "P27" H 4130 3200 40  0000 L CNN
@@ -331,7 +331,7 @@ F 3 "" H 4050 3200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L panels_ring_12_20:CONN_1 P26
+L arena_12-20:CONN_1 P26
 U 1 1 4D191126
 P 4050 3000
 F 0 "P26" H 4130 3000 40  0000 L CNN
@@ -342,7 +342,7 @@ F 3 "" H 4050 3000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L panels_ring_12_20:CONN_1 P25
+L arena_12-20:CONN_1 P25
 U 1 1 4D191125
 P 4050 2800
 F 0 "P25" H 4130 2800 40  0000 L CNN
@@ -353,7 +353,7 @@ F 3 "" H 4050 2800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L panels_ring_12_20:CONN_1 P24
+L arena_12-20:CONN_1 P24
 U 1 1 4D19111C
 P 4050 2400
 F 0 "P24" H 4130 2400 40  0000 L CNN
@@ -368,7 +368,7 @@ Text Notes 2750 4000 0    60   ~ 0
 Text Notes 2900 2250 0    60   ~ 0
 8-32 mounting holes
 $Comp
-L panels_ring_12_20:GND #PWR01
+L arena_12-20:GND #PWR01
 U 1 1 4D19062B
 P 2850 3700
 F 0 "#PWR01" H 2850 3700 30  0001 C CNN
@@ -379,7 +379,7 @@ F 3 "" H 2850 3700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L panels_ring_12_20:CONN_1 P23
+L arena_12-20:CONN_1 P23
 U 1 1 4D1905C4
 P 3200 3400
 F 0 "P23" H 3280 3400 40  0000 L CNN
@@ -390,7 +390,7 @@ F 3 "" H 3200 3400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L panels_ring_12_20:CONN_1 P20
+L arena_12-20:CONN_1 P20
 U 1 1 4D1905C2
 P 3200 2800
 F 0 "P20" H 3280 2800 40  0000 L CNN
@@ -401,7 +401,7 @@ F 3 "" H 3200 2800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L panels_ring_12_20:CONN_1 P19
+L arena_12-20:CONN_1 P19
 U 1 1 4D1905C0
 P 3200 2600
 F 0 "P19" H 3280 2600 40  0000 L CNN
@@ -412,7 +412,7 @@ F 3 "" H 3200 2600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L panels_ring_12_20:CONN_1 P18
+L arena_12-20:CONN_1 P18
 U 1 1 4D1905BE
 P 3200 2400
 F 0 "P18" H 3280 2400 40  0000 L CNN
@@ -423,7 +423,7 @@ F 3 "" H 3200 2400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L panels_ring_12_20:CONN_1 P22
+L arena_12-20:CONN_1 P22
 U 1 1 4D1905BC
 P 3200 3200
 F 0 "P22" H 3280 3200 40  0000 L CNN
@@ -434,7 +434,7 @@ F 3 "" H 3200 3200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L panels_ring_12_20:CONN_1 P21
+L arena_12-20:CONN_1 P21
 U 1 1 4D1905B4
 P 3200 3000
 F 0 "P21" H 3280 3000 40  0000 L CNN
@@ -446,7 +446,7 @@ F 3 "" H 3200 3000 50  0001 C CNN
 $EndComp
 NoConn ~ 2150 6150
 $Comp
-L panels_ring_12_20:SWITCH_INV SW1
+L arena_12-20:SWITCH_INV SW1
 U 1 1 4D13B1B5
 P 2650 6250
 F 0 "SW1" H 2450 6400 50  0000 C CNN
@@ -457,7 +457,7 @@ F 3 "" H 2650 6250 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L panels_ring_12_20:CONN_1 P17
+L arena_12-20:CONN_1 P17
 U 1 1 4D13AE2D
 P 3700 4200
 F 0 "P17" H 3780 4200 40  0000 L CNN
@@ -468,7 +468,7 @@ F 3 "" H 3700 4200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L panels_ring_12_20:CONN_1 P16
+L arena_12-20:CONN_1 P16
 U 1 1 4D13AE27
 P 3000 4200
 F 0 "P16" H 3080 4200 40  0000 L CNN
@@ -501,7 +501,7 @@ F 3 "" H 1250 6550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L panels_ring_12_20:GND #PWR04
+L arena_12-20:GND #PWR04
 U 1 1 4D12B446
 P 4150 7100
 F 0 "#PWR04" H 4150 7100 30  0001 C CNN
@@ -512,7 +512,7 @@ F 3 "" H 4150 7100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L panels_ring_12_20:CONN_2 P15
+L arena_12-20:CONN_2 P15
 U 1 1 4D12B40B
 P 3650 6900
 F 0 "P15" V 3600 6900 40  0000 C CNN
@@ -543,7 +543,7 @@ SDA_1
 Text Label 3150 1100 0    60   ~ 0
 SCL_1
 $Comp
-L panels_ring_12_20:CONN_5X2 P14
+L arena_12-20:CONN_5X2 P14
 U 1 1 4D12B1EB
 P 3900 1300
 F 0 "P14" H 3900 1600 60  0000 C CNN
@@ -554,7 +554,7 @@ F 3 "" H 3900 1300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L panels_ring_12_20:GND #PWR06
+L arena_12-20:GND #PWR06
 U 1 1 4D12AF2A
 P 3550 4550
 F 0 "#PWR06" H 3550 4550 30  0001 C CNN
@@ -565,7 +565,7 @@ F 3 "" H 3550 4550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L panels_ring_12_20:GND #PWR07
+L arena_12-20:GND #PWR07
 U 1 1 4D12AF26
 P 2850 4550
 F 0 "#PWR07" H 2850 4550 30  0001 C CNN
@@ -576,7 +576,7 @@ F 3 "" H 2850 4550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L panels_ring_12_20:VCC #PWR08
+L arena_12-20:VCC #PWR08
 U 1 1 4D12AC6C
 P 9750 4350
 F 0 "#PWR08" H 9750 4450 30  0001 C CNN
@@ -587,7 +587,7 @@ F 3 "" H 9750 4350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L panels_ring_12_20:VCC #PWR09
+L arena_12-20:VCC #PWR09
 U 1 1 4D12AC67
 P 8550 4350
 F 0 "#PWR09" H 8550 4450 30  0001 C CNN
@@ -598,7 +598,7 @@ F 3 "" H 8550 4350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L panels_ring_12_20:VCC #PWR010
+L arena_12-20:VCC #PWR010
 U 1 1 4D12AC62
 P 7250 4350
 F 0 "#PWR010" H 7250 4450 30  0001 C CNN
@@ -609,7 +609,7 @@ F 3 "" H 7250 4350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L panels_ring_12_20:VCC #PWR011
+L arena_12-20:VCC #PWR011
 U 1 1 4D12AC5C
 P 9750 3350
 F 0 "#PWR011" H 9750 3450 30  0001 C CNN
@@ -620,7 +620,7 @@ F 3 "" H 9750 3350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L panels_ring_12_20:VCC #PWR012
+L arena_12-20:VCC #PWR012
 U 1 1 4D12AC58
 P 8550 3350
 F 0 "#PWR012" H 8550 3450 30  0001 C CNN
@@ -631,7 +631,7 @@ F 3 "" H 8550 3350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L panels_ring_12_20:VCC #PWR013
+L arena_12-20:VCC #PWR013
 U 1 1 4D12AC53
 P 7250 3350
 F 0 "#PWR013" H 7250 3450 30  0001 C CNN
@@ -642,7 +642,7 @@ F 3 "" H 7250 3350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L panels_ring_12_20:VCC #PWR014
+L arena_12-20:VCC #PWR014
 U 1 1 4D12AC4D
 P 9750 2400
 F 0 "#PWR014" H 9750 2500 30  0001 C CNN
@@ -653,7 +653,7 @@ F 3 "" H 9750 2400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L panels_ring_12_20:VCC #PWR015
+L arena_12-20:VCC #PWR015
 U 1 1 4D12AC47
 P 8550 2400
 F 0 "#PWR015" H 8550 2500 30  0001 C CNN
@@ -664,7 +664,7 @@ F 3 "" H 8550 2400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L panels_ring_12_20:VCC #PWR016
+L arena_12-20:VCC #PWR016
 U 1 1 4D12AC42
 P 7250 2400
 F 0 "#PWR016" H 7250 2500 30  0001 C CNN
@@ -675,7 +675,7 @@ F 3 "" H 7250 2400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L panels_ring_12_20:VCC #PWR017
+L arena_12-20:VCC #PWR017
 U 1 1 4D12AC3D
 P 9750 1400
 F 0 "#PWR017" H 9750 1500 30  0001 C CNN
@@ -686,7 +686,7 @@ F 3 "" H 9750 1400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L panels_ring_12_20:VCC #PWR018
+L arena_12-20:VCC #PWR018
 U 1 1 4D12AC37
 P 8550 1400
 F 0 "#PWR018" H 8550 1500 30  0001 C CNN
@@ -697,7 +697,7 @@ F 3 "" H 8550 1400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L panels_ring_12_20:VCC #PWR019
+L arena_12-20:VCC #PWR019
 U 1 1 4D12AC18
 P 7250 1400
 F 0 "#PWR019" H 7250 1500 30  0001 C CNN
@@ -756,7 +756,7 @@ SDA_0
 Text Label 7400 1500 0    60   ~ 0
 SCL_0
 $Comp
-L panels_ring_12_20:GND #PWR020
+L arena_12-20:GND #PWR020
 U 1 1 4D12A99C
 P 10150 5250
 F 0 "#PWR020" H 10150 5250 30  0001 C CNN
@@ -767,7 +767,7 @@ F 3 "" H 10150 5250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L panels_ring_12_20:GND #PWR021
+L arena_12-20:GND #PWR021
 U 1 1 4D12A997
 P 8950 5250
 F 0 "#PWR021" H 8950 5250 30  0001 C CNN
@@ -778,7 +778,7 @@ F 3 "" H 8950 5250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L panels_ring_12_20:GND #PWR022
+L arena_12-20:GND #PWR022
 U 1 1 4D12A993
 P 7650 5250
 F 0 "#PWR022" H 7650 5250 30  0001 C CNN
@@ -789,7 +789,7 @@ F 3 "" H 7650 5250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L panels_ring_12_20:GND #PWR023
+L arena_12-20:GND #PWR023
 U 1 1 4D12A98C
 P 10150 4250
 F 0 "#PWR023" H 10150 4250 30  0001 C CNN
@@ -800,7 +800,7 @@ F 3 "" H 10150 4250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L panels_ring_12_20:GND #PWR024
+L arena_12-20:GND #PWR024
 U 1 1 4D12A989
 P 8950 4250
 F 0 "#PWR024" H 8950 4250 30  0001 C CNN
@@ -811,7 +811,7 @@ F 3 "" H 8950 4250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L panels_ring_12_20:GND #PWR025
+L arena_12-20:GND #PWR025
 U 1 1 4D12A983
 P 7650 4250
 F 0 "#PWR025" H 7650 4250 30  0001 C CNN
@@ -822,7 +822,7 @@ F 3 "" H 7650 4250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L panels_ring_12_20:GND #PWR026
+L arena_12-20:GND #PWR026
 U 1 1 4D12A97B
 P 10150 3300
 F 0 "#PWR026" H 10150 3300 30  0001 C CNN
@@ -833,7 +833,7 @@ F 3 "" H 10150 3300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L panels_ring_12_20:GND #PWR027
+L arena_12-20:GND #PWR027
 U 1 1 4D12A973
 P 8950 3300
 F 0 "#PWR027" H 8950 3300 30  0001 C CNN
@@ -844,7 +844,7 @@ F 3 "" H 8950 3300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L panels_ring_12_20:GND #PWR028
+L arena_12-20:GND #PWR028
 U 1 1 4D12A96D
 P 7650 3300
 F 0 "#PWR028" H 7650 3300 30  0001 C CNN
@@ -855,7 +855,7 @@ F 3 "" H 7650 3300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L panels_ring_12_20:GND #PWR029
+L arena_12-20:GND #PWR029
 U 1 1 4D12A95F
 P 10150 2300
 F 0 "#PWR029" H 10150 2300 30  0001 C CNN
@@ -866,7 +866,7 @@ F 3 "" H 10150 2300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L panels_ring_12_20:GND #PWR030
+L arena_12-20:GND #PWR030
 U 1 1 4D12A950
 P 8950 2300
 F 0 "#PWR030" H 8950 2300 30  0001 C CNN
@@ -877,7 +877,7 @@ F 3 "" H 8950 2300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L panels_ring_12_20:GND #PWR031
+L arena_12-20:GND #PWR031
 U 1 1 4D12A94E
 P 7650 2300
 F 0 "#PWR031" H 7650 2300 30  0001 C CNN
@@ -924,7 +924,7 @@ NoConn ~ 7750 2000
 NoConn ~ 7750 1900
 NoConn ~ 7750 1800
 $Comp
-L panels_ring_12_20:GND #PWR032
+L arena_12-20:GND #PWR032
 U 1 1 4D12A6CB
 P 6250 6600
 F 0 "#PWR032" H 6250 6600 30  0001 C CNN
@@ -935,7 +935,7 @@ F 3 "" H 6250 6600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L panels_ring_12_20:GND #PWR033
+L arena_12-20:GND #PWR033
 U 1 1 4D12A6C8
 P 5300 6600
 F 0 "#PWR033" H 5300 6600 30  0001 C CNN
@@ -946,7 +946,7 @@ F 3 "" H 5300 6600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L panels_ring_12_20:VCC #PWR034
+L arena_12-20:VCC #PWR034
 U 1 1 4D12A6C1
 P 6250 5900
 F 0 "#PWR034" H 6250 6000 30  0001 C CNN
@@ -957,7 +957,7 @@ F 3 "" H 6250 5900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L panels_ring_12_20:VCC #PWR035
+L arena_12-20:VCC #PWR035
 U 1 1 4D12A6BC
 P 5300 5900
 F 0 "#PWR035" H 5300 6000 30  0001 C CNN
@@ -968,7 +968,7 @@ F 3 "" H 5300 5900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L panels_ring_12_20:VCC #PWR036
+L arena_12-20:VCC #PWR036
 U 1 1 4D12A0AF
 P 3600 6100
 F 0 "#PWR036" H 3600 6200 30  0001 C CNN
@@ -979,7 +979,7 @@ F 3 "" H 3600 6100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L panels_ring_12_20:GND #PWR037
+L arena_12-20:GND #PWR037
 U 1 1 4D12A09E
 P 1250 7100
 F 0 "#PWR037" H 1250 7100 30  0001 C CNN
@@ -1010,7 +1010,7 @@ SCL_0
 Text Label 2050 950  0    60   ~ 0
 SCL_1
 $Comp
-L panels_ring_12_20:CAPAPOL C2
+L arena_12-20:CAPAPOL C2
 U 1 1 4D129B77
 P 6250 6250
 F 0 "C2" H 6300 6350 50  0000 L CNN
@@ -1021,7 +1021,7 @@ F 3 "" H 6250 6250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L panels_ring_12_20:CAPAPOL C1
+L arena_12-20:CAPAPOL C1
 U 1 1 4D129B16
 P 5300 6250
 F 0 "C1" H 5350 6350 50  0000 L CNN
@@ -1032,7 +1032,7 @@ F 3 "" H 5300 6250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L panels_ring_12_20:DIN_5 P13
+L arena_12-20:DIN_5 P13
 U 1 1 4D129A69
 P 2000 6950
 F 0 "P13" H 2000 6950 70  0000 C CNN
@@ -1043,7 +1043,7 @@ F 3 "" H 2000 6950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L panels_ring_12_20:DB9 J1
+L arena_12-20:DB9 J1
 U 1 1 4D1299C1
 P 1500 1350
 F 0 "J1" H 1500 1900 70  0000 C CNN
@@ -1054,7 +1054,7 @@ F 3 "" H 1500 1350 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L panels_ring_12_20:CONN_8 P3
+L arena_12-20:CONN_8 P3
 U 1 1 4D1299A0
 P 10600 1850
 F 0 "P3" V 10550 1850 60  0000 C CNN
@@ -1065,7 +1065,7 @@ F 3 "" H 10600 1850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L panels_ring_12_20:CONN_8 P6
+L arena_12-20:CONN_8 P6
 U 1 1 4D12999F
 P 10600 2850
 F 0 "P6" V 10550 2850 60  0000 C CNN
@@ -1076,7 +1076,7 @@ F 3 "" H 10600 2850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L panels_ring_12_20:CONN_8 P12
+L arena_12-20:CONN_8 P12
 U 1 1 4D12999E
 P 10600 4800
 F 0 "P12" V 10550 4800 60  0000 C CNN
@@ -1087,7 +1087,7 @@ F 3 "" H 10600 4800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L panels_ring_12_20:CONN_8 P9
+L arena_12-20:CONN_8 P9
 U 1 1 4D12999D
 P 10600 3800
 F 0 "P9" V 10550 3800 60  0000 C CNN
@@ -1098,7 +1098,7 @@ F 3 "" H 10600 3800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L panels_ring_12_20:CONN_8 P8
+L arena_12-20:CONN_8 P8
 U 1 1 4D129997
 P 9400 3800
 F 0 "P8" V 9350 3800 60  0000 C CNN
@@ -1109,7 +1109,7 @@ F 3 "" H 9400 3800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L panels_ring_12_20:CONN_8 P11
+L arena_12-20:CONN_8 P11
 U 1 1 4D129996
 P 9400 4800
 F 0 "P11" V 9350 4800 60  0000 C CNN
@@ -1120,7 +1120,7 @@ F 3 "" H 9400 4800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L panels_ring_12_20:CONN_8 P5
+L arena_12-20:CONN_8 P5
 U 1 1 4D129995
 P 9400 2850
 F 0 "P5" V 9350 2850 60  0000 C CNN
@@ -1131,7 +1131,7 @@ F 3 "" H 9400 2850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L panels_ring_12_20:CONN_8 P2
+L arena_12-20:CONN_8 P2
 U 1 1 4D129994
 P 9400 1850
 F 0 "P2" V 9350 1850 60  0000 C CNN
@@ -1142,7 +1142,7 @@ F 3 "" H 9400 1850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L panels_ring_12_20:CONN_8 P1
+L arena_12-20:CONN_8 P1
 U 1 1 4D12997C
 P 8100 1850
 F 0 "P1" V 8050 1850 60  0000 C CNN
@@ -1153,7 +1153,7 @@ F 3 "" H 8100 1850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L panels_ring_12_20:CONN_8 P4
+L arena_12-20:CONN_8 P4
 U 1 1 4D12997B
 P 8100 2850
 F 0 "P4" V 8050 2850 60  0000 C CNN
@@ -1164,7 +1164,7 @@ F 3 "" H 8100 2850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L panels_ring_12_20:CONN_8 P10
+L arena_12-20:CONN_8 P10
 U 1 1 4D12996A
 P 8100 4800
 F 0 "P10" V 8050 4800 60  0000 C CNN
@@ -1175,7 +1175,7 @@ F 3 "" H 8100 4800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L panels_ring_12_20:CONN_8 P7
+L arena_12-20:CONN_8 P7
 U 1 1 4D12995D
 P 8100 3800
 F 0 "P7" V 8050 3800 60  0000 C CNN

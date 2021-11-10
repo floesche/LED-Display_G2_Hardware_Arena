@@ -1,6 +1,6 @@
 -*- mode:org -*-
 
-# panels_ring_12_20.lst
+# arena_12-20.lst
 | ref | value      |
 |-----+------------|
 | C1  | CAPAPOL    |
@@ -51,4 +51,5 @@
 |   | SW1    | SWITCH TOGGLE SPDT SEAL VERT R/A | digikey      | CKN1513-ND    |        1 |   6.93 |
 |---+--------+----------------------------------+--------------+---------------+----------+--------|
 | # | total  |                                  |              |               |          | 114.65 |
+
 #+TBLFM: @12$7=(@I$quantity..@II$quantity)*(@I$cost..@II$cost);%.2f;N
