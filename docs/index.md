@@ -47,7 +47,7 @@ This PCB was last ordered around 2011 from <https://protoexpress.com> under the 
 
 The Arena 8-inf is a planar arena board with 8 panel connectors for the Generation 2 of the Modular LED Display system. It is sometimes referred to as a hallway arena.
 
-Find the KiCad PCB for a 8-inf arena inside the `arena_8-inf` project folder. Have a preview of the [schematic](assets/arena_8-inf_schematic.pdf).
+Find the KiCad PCB for a 8-inf arena inside the `arena_8-inf` project folder. Have a preview of the [schematic](assets/arena_8-inf_schematic.pdf). In addition the project folder contains a folder named `enclosure`. These files were apparently used to produce some kind of mounting base or enclosure for the 8-inf arena. Based on the vector file format the parts were probably laser cut. There is also a python file to generate a OpenSCAD file.
 
 ---
 {:.clear}
