@@ -1,7 +1,12 @@
 ---
-title: Arena PCBs
+title: Arena
 parent: Generation 2
+nav_order: 2
 ---
+
+# Arena boards
+
+An arena board organizes panels in a geometry and provides structural integrity to the whole setup. Different shapes of cylindrical arenas have been built. We use a naming scheme based on their number of panel columns available and the virtual ones forming a full circle. A 12-12 arena is a closed cylinder formed by 12 columns in total, a 12-20 describes an open virtual cylinder formed by 20 columns where 12 are actually available. For planar or linear arenas the theoretical number of virtual columns is infinite, so an 8-inf arena describes a system with 8 columns in a row.
 
 # Arena 12-12
 {:.clear}
