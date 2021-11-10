@@ -1,5 +1,5 @@
-update=Tue 08 Feb 2011 03:53:26 PM PST
-last_client=pcbnew
+update=Wed 10 Nov 2021 12:55:38 PM EST
+last_client=kicad
 [general]
 version=1
 [cvpcb]
@@ -32,3 +32,6 @@ WpenSer=10
 [pcbnew/libraries]
 LibDir=../mod
 LibName1=panels_arenas
+[eeschema]
+version=1
+LibDir=

@@ -1,6 +1,6 @@
 -*- mode:org -*-
 
-# panels_arena_mini.lst
+# arena_1-1.lst
 | ref | value      |
 |-----+------------|
 | C1  | CAPAPOL    |
