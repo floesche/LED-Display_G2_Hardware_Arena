@@ -1,7 +1,7 @@
 ---
 title: Arena
 parent: Generation 2
-nav_order: 2
+nav_order: 6
 ---
 
 # Arena boards
