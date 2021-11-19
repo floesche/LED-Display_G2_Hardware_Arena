@@ -7,11 +7,12 @@ nav_order: 20
 
 # Panels System
 
-For a long time and since [Michael Reiser](https://www.janelia.org/people/michael-reiser) started an online documentation of the Modular LED Displays more than a decade ago, this introductory text had emphasized the community aspect of this endeavor. It is no small feat to design and produce electrical systems with high temporal and spatial precision that work reliably in many different scientific settings. Many labs have taken this task upon themselves and are building and using these systems. By now, the [Generation 2](g2_system.md) and [3]({{site.baseurl}}/Generation%203/) Modular LED Displays have a large user basis across many scientific labs. We are also confident that the additional capabilities of the [Generation 4]({{site.baseurl}}/docs/G4-index.html) system will further the spread of this new stimulus presentation systems, especially once we had the chance to explain the advantages in the upcoming methods paper. Through all this, the exchange of experiences coupled with suggestions and improvements has benefited the system. Please [keep sending]({{site.baseurl}}/Contact) updates, improvements, and troubleshooting suggestions -- this is invaluable support for us in making the current and future systems better, but also for any future scientist who wants to replicate one of the systems in their setup.
+For a long time and since [Michael Reiser](https://www.janelia.org/people/michael-reiser) started an online documentation of the Modular LED Displays more than a decade ago, this introductory text had emphasized the community aspect of this endeavor. It is no small feat to design and produce electrical systems with high temporal and spatial precision that work reliably in many different scientific settings. Many labs have taken this task upon themselves and are building and using these systems. By now, the [Generation 2](g2_system.md) and [3]({{site.baseurl}}/Generation%203/) Modular LED Displays have a large user basis across many scientific labs. We are also confident that the additional capabilities of the [Generation 4]({{site.baseurl}}/docs/g4_system.html) system will further the spread of this new stimulus presentation systems, especially once we had the chance to explain the advantages in the upcoming methods paper. Through all this, the exchange of experiences coupled with suggestions and improvements has benefited the system. Please [keep sending]({{site.baseurl}}/Contact) updates, improvements, and troubleshooting suggestions -- this is invaluable support for us in making the current and future systems better, but also for any future scientist who wants to replicate one of the systems in their setup.
 
 To get started with [Generation 2](g2_system.md) or even a [Generation 3]({{site.baseurl}}/Generation%203/) system, please have a look at this current page where we show some technical details of the system. A more general [user guide](g2_user-guide.md), written by Mark Frye, Michael Dickinson, and Michael Reiser, gives a nice and informal introduction to this system and its use as a flight arena for flies. Finally, we still consider the dated but [timeless paper](https://doi.org/10.1016/j.jneumeth.2007.07.019) that introduced the Modular LED Display back in 2007 a useful reference.
 
-> __Note__: For historical reasons we provide some information on how to [install](g2_prerequisites.md) a Generation 2 system, although we would strongly discourage anyone from doing this at this point. Follow the documentation of [Generation 4]({{site.baseurl}}/docs/G4-index.html) system instead or, if you want to use a less expensive system, have a look at the [Generation 3]({{site.baseurl}}/Generation%203/) Modular LED Display instead.
+__Note__: For historical reasons we provide some information on how to [install](g2_prerequisites.md) a Generation 2 system, although we would strongly discourage anyone from doing this at this point. Follow the documentation of [Generation 4]({{site.baseurl}}/docs/g4_system.html) system instead or, if you want to use a less expensive system, have a look at the [Generation 3]({{site.baseurl}}/Generation%203/) Modular LED Display instead.
+{:.info}
 
 # System Overview
 
@@ -31,7 +32,8 @@ In all the documentation that follows, we will try to use this terminology consi
 
 # TODO & Wish List
 
-> __Note__: This is the initial wish list published in 2006 with some additional comments on the status.
+__Note__: This is the initial wish list published in 2006 with some additional comments on the status.
+{:.info}
 
 As presented the system is fully functional and has been in regular use for more than two years. However, there are many features that will improve the system. Here is a list of suggested projects. Some of these will be completed by the time you read this, (many will certainly not be). If anyone is interested in tackling these or suggesting other projects, please get in [contact]({{site.baseurl}}/Contact).
 

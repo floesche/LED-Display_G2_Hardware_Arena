@@ -334,7 +334,8 @@ Programming the CF (compact flash)
 14. Make sure that the arena is powered on, then switch on the controller.
 15. PControl, click *patterns*{:.gui-btn}->*update gui*{:.gui-btn}
 
-Note: to be able to access the patterns on a CF from the PControl GUI, you must be using the CF on the same machine on which it was programmed. If you load patterns onto a CF on machine A, then you may only access them on machine B by using the `Panel_com('set_pattern_id')` command.
+__Note__: to be able to access the patterns on a CF from the PControl GUI, you must be using the CF on the same machine on which it was programmed. If you load patterns onto a CF on machine A, then you may only access them on machine B by using the `Panel_com('set_pattern_id')` command.
+{:.info}
 
 # Technical Appendix 1 – User guide to the Panel_com command {#technical-appendix-1}
 
