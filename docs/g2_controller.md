@@ -47,9 +47,9 @@ These parts are required to make 1 controller (compiled around 2006):
 | quantity | part description               | source & p/n | price |
 |---------:|:-------------------------------|:------------ |------:|
 | 2        | [Atmega128](http://www.atmel.com/dyn/resources/prod_documents/doc2467.pdf) microcontroller, 64 TQFP package | Digi-Key, ATMEGA128-16AI-ND | $10 |
-| 1        | [CY7C4251V-15AC FIFO](http://rocky.digikey.com/WebLib/Cypress/Web%20Data/CY7C4201V,11V,21V,31V,41V,51V,4421V.pdf), 32 TQFP package | Digi-Key, 428-1229-ND | $18 |
+| 1        | [CY7C4251V-15AC FIFO](https://datasheet.octopart.com/CY7C4251V-15AC-Cypress-Semiconductor-datasheet-13109.pdf), 32 TQFP package | Digi-Key, 428-1229-ND | $18 |
 | 2        | [DAC 8571](http://focus.ti.com/lit/ds/symlink/dac8571.pdf), I2C 16 bit, 8 MSOP package | Digi-Key, 296-14307-1-ND | $5 |
-| 1        | [Maxim RS-232 driver](http://pdfserv.maxim-ic.com/en/ds/MAX220-MAX249.pdf) | Digi-Key, MAX233ACPP-ND | $8 |
+| 1        | [Maxim RS-232 driver](https://datasheet.octopart.com/MAX233ACPP-Maxim-datasheet-3759.pdf) | Digi-Key, MAX233ACPP-ND | $8 |
 | 5        | 150Ohm 1/4W resistor, 1206 package | Digi-Key, 311-150ECT-ND | $0.02 |
 | 9        | 10kOhm 1/4W resistor, 1206 package | Digi-Key, 311-10KECT-ND | $0.02 |
 | 2        | 16 MHz crystal oscillator          | Digi-Key, X192-ND | $0.70 |

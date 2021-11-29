@@ -58,7 +58,7 @@ This PCB was last ordered around 2011 from <https://protoexpress.com> under the 
 
 The Arena 1-1 is a single panel arena board for the Generation 2 of the Modular LED Display system. It's primary use is development and debugging.
 
-Find the KiCad PCB for a 1-1 arena inside the `arena_1-1` project folder. Have a preview of the [schematic](assets/arena_1-2_schematic.pdf).
+Find the KiCad PCB for a 1-1 arena inside the `arena_1-1` project folder. Have a preview of the [schematic](assets/arena_1-1_schematic.pdf).
 
 This PCB was last ordered around 2011 from <https://protoexpress.com> under the name *panels_arena_mini 1.0 1.0* reference number *192719-INTJ* for about $2. Most likely, the content of `arena_1-1/production_v1/arena_1-1_v1p0.zip` was used for this order.
 
