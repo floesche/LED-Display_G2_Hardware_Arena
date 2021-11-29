@@ -8,17 +8,16 @@ nav_order: 3
 
 The Controller reads in pattern data from the CF card memory, accepts commands from the PC control program, and sends pattern data to the panels over the TWI bus.
 
-## Controller Hardware
-{:#hardware}
+## Controller Hardware {#hardware}
 
-The controller board contains 2 ATmega128 microcontrollers, one is dedicated to reading the pattern data from the CompactFlash card, and the other communicates with the PC and the panels display. The PCB design has been modified, so that connections with a case are rather simple.
+The controller board contains 2 ATmega128 micro controller units (MCU), one is dedicated to reading the pattern data from the CompactFlash card, and the other communicates with the PC and the panels display. The PCB design has been modified, so that connections with a case are rather simple.
 
 - [Controller v2.2 PCB (pdf)](assets/controller_pcb_v2p2.pdf)
 - [Controller v2.2 schematic (pdf)](assets/controller_schematic_v2p2.pdf)
 
 ## Power supplies
 
-There are 2 options for supplying power to the controller board. An unregulated supply can be connected to the 3-pin header. This power is regulated down to 5 volts and used by the circuitry on the board. An inexpensive DC wall transformer is a good choice, at least 9V and 1-2 A, should be adequate. Use this connector when no panels (or just 1 or 2) are on the controller. The three pins are [`GND` `V+` `GND`], the suggested connector to use is a three pin female: [`GND` `V+` `Blank`]. This way there is no possibility of switching power and ground. The other option is a 5-Pin DIN connector regulated supply. Looking head on at the supply connector, should have (Left to Right): Ground, no connect, Ground, no connect, + 5V. The two pins are not connected, so if a pre-built supply has something on these pins, it will be fine to use this supply, otherwise, modify the connector to this pinout. The 5V, 10A power supply given in the [parts list](#parts-list) works very well.
+There are 2 options for supplying power to the controller board. An unregulated supply can be connected to the 3-pin header. This power is regulated down to 5 volts and used by the circuitry on the board. An inexpensive DC wall transformer is a good choice, at least 9V and 1-2 A, should be adequate. Use this connector when no panels (or just 1 or 2) are on the controller. The three pins are [`GND` `V+` `GND`], the suggested connector to use is a three pin female: [`GND` `V+` `Blank`]. This way there is no possibility of switching power and ground. The other option is a 5-Pin DIN connector regulated supply. Looking head on at the supply connector, should have (Left to Right): Ground, no connect, Ground, no connect, + 5V. The two pins are not connected, so if a pre-built supply has something on these pins, it will be fine to use this supply, otherwise, modify the connector to this pin-out. The 5V, 10A power supply given in the [parts list](#parts-list) works very well.
 
 ## Controller Software
 
@@ -26,27 +25,26 @@ The software running on the Controller is essentially the intermediary between t
 
 ### Programming the Controller
 
-Programming the controller is similar to the process for programming each panel. There is a 6-pin ISP interface for both of the controller board's Atmega128 microprocessors. Let's program the main controller first:
+Programming the controller is similar to the process for programming each panel. There is a 6-pin ISP interface for both of the controller board's ATmega128 microprocessors. Let's program the main controller first:
 
 1. Power the Controller board if using the AVR ISP, otherwise power the STK 500, and connect the programming device to the 6 pin Controller ISP header (labeled J7 on the PCB).
 2. Open AVR Studio and start the AVR programming tool STK500/AVRISP from the tools menu.
-3. Test the connection by selecting the Atmega128 device from the drop-down menu, and then in the advanced tab try to read signature. If these match, move on, otherwise check the connections (rotate connector), restart, etc.
+3. Test the connection by selecting the ATmega128 device from the drop-down menu, and then in the advanced tab try to read signature. If these match, move on, otherwise check the connections (rotate connector), restart, etc.
 4. Program the fuses - this is done from the __Fuses__ tab - a few options should be set: __ATMega103 compatibility mode__ must be set to OFF, __JTAG interface enable__ must be set to OFF, and clock rate must be set to the last choice: __Ext. Crystal/Resonator High Freq.: Start-up time 16K CK + 64 ms__. It is also a good idea to set __Brown-out detection level at VCC=4.0V__ and __Brown-out detection enabled__.
 5. There is no EEPROM file needed for this application.
-6. Program the flash on the Atmega128 by selecting the __Program__ tab and selecting the input hex file as: `mainctrl.hex`, and then programming the chip.
+6. Program the flash on the ATmega128 by selecting the __Program__ tab and selecting the input hex file as: `mainctrl.hex`, and then programming the chip.
 7. It is always a good idea to verify both the program and the fuses to make sure these are set correctly.
 8. To program the CompactFlash controller, just repeat steps 1-7, except for:
     1. Unplug the CF card if there is one in the socket. Also plug the 6 pin ISP cable into the 6 pin ISP header for the CF controller (labeled J8 on the PCB).
 9. program with the file `cfctrl.hex`.
 
-# Parts list
-{:#parts-list}
+# Parts list {#parts-list}
 
 These parts are required to make 1 controller (compiled around 2006):
 
 | quantity | part description               | source & p/n | price |
 |---------:|:-------------------------------|:------------ |------:|
-| 2        | [Atmega128](http://www.atmel.com/dyn/resources/prod_documents/doc2467.pdf) microcontroller, 64 TQFP package | Digi-Key, ATMEGA128-16AI-ND | $10 |
+| 2        | [ATmega128](http://www.atmel.com/dyn/resources/prod_documents/doc2467.pdf) microcontroller, 64 TQFP package | Digi-Key, ATMEGA128-16AI-ND | $10 |
 | 1        | [CY7C4251V-15AC FIFO](https://datasheet.octopart.com/CY7C4251V-15AC-Cypress-Semiconductor-datasheet-13109.pdf), 32 TQFP package | Digi-Key, 428-1229-ND | $18 |
 | 2        | [DAC 8571](http://focus.ti.com/lit/ds/symlink/dac8571.pdf), I2C 16 bit, 8 MSOP package | Digi-Key, 296-14307-1-ND | $5 |
 | 1        | [Maxim RS-232 driver](https://datasheet.octopart.com/MAX233ACPP-Maxim-datasheet-3759.pdf) | Digi-Key, MAX233ACPP-ND | $8 |
