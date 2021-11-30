@@ -62,10 +62,9 @@ If the fly is properly focused over the sensor, then the resultant signal from t
 - quantal cycle-by-cycle amplitude "pops"
 - Second peak larger than first
 
-**Good hütchens!**
+__Good hütchens!__
 
 ---
-{: .clear}
 
 ![Bad broad hütchen](assets/user-guide_bad-huetchens_broad.png){:.ifr .pop}
 
@@ -73,10 +72,9 @@ If the fly is properly focused over the sensor, then the resultant signal from t
 - No cycle-by-cycle amplitude variation
 - Saturated wing signal
 
-**Bad hütchens,** more like a lüdenhut (ask MD) fly is likely too far forward over the mask
+__Bad hütchens__, more like a lüdenhut (ask MD) fly is likely too far forward over the mask
 
 ---
-{: .clear}
 
 ![Bad narrow hütchen](assets/user-guide_bad-huetchens_narrow.png){:.ifr .pop}
 
@@ -84,30 +82,29 @@ If the fly is properly focused over the sensor, then the resultant signal from t
 - "Quantal" cycle-by-cycle amplitude variation
 - First and second peak equal height, or second is smaller
 
-**Bad hutschienes**, fly is either too far away from the sensor surface, or too far from IR source, or both
+__Bad hutschienes__, fly is either too far away from the sensor surface, or too far from IR source, or both
 
 ---
-{: .clear}
 
 The WBA tracks the analog wing sensor signal voltage, and measures a suite of parameters for each wing stroke (defined by the inflections in the hütchens occurring between the user-defined trigger and gate values):
 
-Inputs
+## Inputs
 
-- **Source**: left or right wing to set Gate and Trigger
-- **Trigger**: voltage threshold to detect peak of downstroke
-- **Gate**: time frame to detect peak of downstroke
-- **Gain**: amplification of hutschienes – should read 2.5-3.5 Volts for standard DAQ
-- **Filter**: low-pass filter analog sensor signals
+- __Source__: left or right wing to set Gate and Trigger
+- __Trigger__: voltage threshold to detect peak of downstroke
+- __Gate__: time frame to detect peak of downstroke
+- __Gain__: amplification of hutschienes – should read 2.5-3.5 Volts for standard DAQ
+- __Filter__: low-pass filter analog sensor signals
 
-Outputs
+## Outputs
 
-- **Left**: analog signal from IR wing sensor
-- **Right**: analog signal from IR wing sensor
-- **Frequency**: stroke frequency in cycles/sec
-- **L-R**: left minus right amplitude - proportional to yaw torque
-- **L+R**: left plus right amplitude - proportional to thrust
-- **Flip**: a brief TTL pulse synchronized with the ventral flip
-- **Sync**: a TTL pulse synchronized with each wing beat - used to trigger an oscilloscope sweep
+- __Left__: analog signal from IR wing sensor
+- __Right__: analog signal from IR wing sensor
+- __Frequency__: stroke frequency in cycles/sec
+- __L-R__: left minus right amplitude - proportional to yaw torque
+- __L+R__: left plus right amplitude - proportional to thrust
+- __Flip__: a brief TTL pulse synchronized with the ventral flip
+- __Sync__: a TTL pulse synchronized with each wing beat - used to trigger an oscilloscope sweep
 
 # Panel Controller
 
@@ -123,7 +120,7 @@ We tend to refer to the tiled LED array as the "arena", composed of individual "
 4. Start Matlab
 5. in the Command Window, type `PControl`
 6. Verify the serial connection between the PC and the controller, select: *commands*{:.gui-btn}->*blink LED*{:.gui-btn}, verify the blinking green LED on the controller
-7. load a pattern in PControl with the menu *patterns*{:.gui-btn}->*set pattern ID*{:.gui-btn} -> set a *Pattern Index value**{:.gui-txt} (integer value)
+7. load a pattern in PControl with the menu *patterns*{:.gui-btn}->*set pattern ID*{:.gui-btn} -> set a *Pattern Index value__{:.gui-txt} (integer value)
 8. set Gain to a non-zero value in the appropriate channel (*X*{:.gui-txt} or *Y*{:.gui-txt}), hit *Start*{:.gui-btn}, and *Stop*{:.gui-btn}
 
 ## Open-Loop operation
@@ -341,7 +338,7 @@ __Note__: to be able to access the patterns on a CF from the PControl GUI, you m
 
 The `Panel_com` command allows for communication from Matlab to the arena controller. The function takes 2 values – the command and the numerical arguments (when needed).
 
-**Note:** It does not make sense to issue some of these commands while the controller is 'going' – i.e. updating frames. For example, if a 'All off' command is sent while the controller is updating frames – the panels will be off for maybe a few milliseconds – and then the frames will keep updating, so it might not be obvious that this command did anything.
+__Note:__ It does not make sense to issue some of these commands while the controller is 'going' – i.e. updating frames. For example, if a 'All off' command is sent while the controller is updating frames – the panels will be off for maybe a few milliseconds – and then the frames will keep updating, so it might not be obvious that this command did anything.
 
 ## Useful commands
 
@@ -452,13 +449,13 @@ Note: functions must be made of signed values, between -127 and + 127, and must 
 
 To control time properly, it is essential to have a clear understanding of the operational scheme:
 
-**Internal function generator** is a vector of 1000 values that plays out over 20 seconds, corresponding to 50 samples/sec. Each value is a single byte, specified as a signed integer, so these can range from -127 to +127 (maybe 128). These values directly corresponds to the frame rate played out, so a 1000 value vector of 5's will produce 5 fps, if the gain is set to 1X. The **gain** is also specified as a single byte, signed integer, so the GUI implements gains from -10 to + 10, by sending out 10 times this value – X gain of 0.5 is sent as gain_x = 5, Y gain of -2.2 is gain_y = -22, etc.
+__Internal function generator__ is a vector of 1000 values that plays out over 20 seconds, corresponding to 50 samples/sec. Each value is a single byte, specified as a signed integer, so these can range from -127 to +127 (maybe 128). These values directly corresponds to the frame rate played out, so a 1000 value vector of 5's will produce 5 fps, if the gain is set to 1X. The __gain__ is also specified as a single byte, signed integer, so the GUI implements gains from -10 to + 10, by sending out 10 times this value – X gain of 0.5 is sent as gain_x = 5, Y gain of -2.2 is gain_y = -22, etc.
 
-The **bias** is also represented as 1 signed single byte integer. This value implements a virtual voltage, in the GUI, 1V is represented as the number 20 (this is only so we can use the -127 to + 127 range), this is scaled by 2.5 on the controller.
+The __bias__ is also represented as 1 signed single byte integer. This value implements a virtual voltage, in the GUI, 1V is represented as the number 20 (this is only so we can use the -127 to + 127 range), this is scaled by 2.5 on the controller.
 Note that in the calculations shown below, these are all integer operations implemented in C, the main significance of this is that there is no remainder kept after division (e.g. 10/3 = 3).
 Each channel can operate in a few different modes, the timing of pattern display is as follows:
 
-**mode 0, open loop** – in this mode the internal function generator is used to set the display rate.
+__mode 0, open loop__ – in this mode the internal function generator is used to set the display rate.
 So the rate in open loop is calculated as (using X as the example):
 
 ```matlab
@@ -474,7 +471,7 @@ X_rate = ( (20*10)/10 + 5*0)/2 = 10 fps
 Ex2 - instantaneous function generator value of 20, gain_x = -1.5X, bias_x = 0.3 V,\\
 X_rate = ( (40*-15)/10 + 5*6)/2 = -15 fps (obviously this is just 15 fps in opposite direction).
 
-**mode 1, closed loop** – in this mode the input voltage difference is used to set the rate, for channel X, this is CH1-CH2, for y, this is CH3-CH4. The a2d conversion digitizes 5 V with a 10 bit resolution, so 5 V maps to 1024, this range is too high, so ultimately we divide this by 4 (divide by 2 twice), so that 1 V maps to about 51 fps.
+__mode 1, closed loop__ – in this mode the input voltage difference is used to set the rate, for channel X, this is CH1-CH2, for y, this is CH3-CH4. The a2d conversion digitizes 5 V with a 10 bit resolution, so 5 V maps to 1024, this range is too high, so ultimately we divide this by 4 (divide by 2 twice), so that 1 V maps to about 51 fps.
 
 The rate is calculated as:
 
@@ -490,7 +487,7 @@ X_rate = ( (-51*20)/10 + 5*10)/2 = -26 fps
 Ex 2 - Same as above, but with gain_x = 1X, bias_x = 0.5V\\\
 X_rate = ( (-51*10)/10 + 5*10)/2 = 0 fps, note that the bias has exactly cancelled out the 1/2 V input difference.
 
-**mode 2, closed loop with bias** – this mode is basically a combination of modes 1 and 2.
+__mode 2, closed loop with bias__ – this mode is basically a combination of modes 1 and 2.
 
 The rate is calculated as:
 
@@ -499,7 +496,7 @@ X_val = (X_ADC1 - X_ADC2 )/2;
 X_rate = ((X_val*gain_x)/10 + 2*function_X[function_counter] + 5*bias_x)/2;
 ```
 
-**mode 3, position control mode** – this mode is completely different from the above modes, the input voltage no longer sets the rate of the display, rather the calculation detailed will set the frame index. This may be confusing, because the notions of gain and bias have been co-opted for this function, and they are not used in exactly the same manner as above. For X, we use ADC5 to set the position, and for Y, we use ADC6. Again the digitizer is a 10 bit digitizer, so 5V maps to 1024, in this mode we do not divide by a fixed value, rather we divide by the gain. For channel x, the calculation of the frame to display is as follows:
+__mode 3, position control mode__ – this mode is completely different from the above modes, the input voltage no longer sets the rate of the display, rather the calculation detailed will set the frame index. This may be confusing, because the notions of gain and bias have been co-opted for this function, and they are not used in exactly the same manner as above. For X, we use ADC5 to set the position, and for Y, we use ADC6. Again the digitizer is a 10 bit digitizer, so 5V maps to 1024, in this mode we do not divide by a fixed value, rather we divide by the gain. For channel x, the calculation of the frame to display is as follows:
 
 ```matlab
 index_x = X_ADC5/gain_x + bias_x;
@@ -517,7 +514,7 @@ index_x = 409/15 + -10 = 27 – 10 = 17, again, if there is no frame 17 then the
 Ex3 – input is 0 V, gain is anything, bias = 1V.\\
 index_x = 0/anything + 20 = 20.
 
-**mode 4, function-based position control mode** – this mode uses the function generator to numerically specify the current position. Gain and bias settings are irrelevant. This code shows how the current index for the x channel, index_x, is determined:
+__mode 4, function-based position control mode__ – this mode uses the function generator to numerically specify the current position. Gain and bias settings are irrelevant. This code shows how the current index for the x channel, index_x, is determined:
 
 ```matlab
 temp_x_val = (X_pos_index + function_X[function_counter]);
@@ -527,7 +524,7 @@ if (temp_x_val < 0) {index_x = x_num - ((abs(temp_x_val))%x_num); }
 
 As you may notice, this implementation uses the function generator as an offset of the value stored in `X_pos_index`, which is set when a new X,Y position is sent to the controller. In this way the same function can be replayed, at different positions (in functions space), without recreating the function.
 
-**mode 5, function generator debug mode** – in this mode, the controller does not update the display, it plays out the function generator through the DAC outputs. The 0-5V DAC output range is used to represent a -5 to + 5 range, so the zero of the function is shifted up to 2.5 V and the range is compressed by a factor of 2 (e.g. -5V is sent out as a zero, 0V as 2.5 V, + 5V as 5V).
+__mode 5, function generator debug mode__ – in this mode, the controller does not update the display, it plays out the function generator through the DAC outputs. The 0-5V DAC output range is used to represent a -5 to + 5 range, so the zero of the function is shifted up to 2.5 V and the range is compressed by a factor of 2 (e.g. -5V is sent out as a zero, 0V as 2.5 V, + 5V as 5V).
 
 # Original file
 
